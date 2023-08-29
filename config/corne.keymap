@@ -15,12 +15,22 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
         };
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
+        };
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <26 27>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <28 27>;
         };
     };
 
