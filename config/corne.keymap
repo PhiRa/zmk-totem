@@ -80,13 +80,13 @@
             compatible = "zmk,behavior-macro";
             label = "SMILING";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp RPAR>;
+            bindings = <&kp DA_COLON &kp DA_RIGHT_PARENTHESIS>;
         };
         laughing: laughing {
             compatible = "zmk,behavior-macro";
             label = "LAUGHING";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp LS(D)>;
+            bindings = <&kp DA_COLON &kp LS(DA_D)>;
         };
     };
 
