@@ -60,13 +60,13 @@
         };
 
         left_brace {
-            bindings = <&kp DA_LEFT_BRACE>;
+            bindings = <&kp RS(RA(DA_N7))>;
             key-positions = <7 8>;
             layers = <2>;
         };
 
         right_brace {
-            bindings = <&kp DA_RIGHT_BRACE>;
+            bindings = <&kp RS(RA(DA_N8))>;
             key-positions = <8 9>;
             layers = <2>;
         };
@@ -83,9 +83,9 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-&kp ESCAPE               &kp Q             &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I              &kp O                    &kp P   &kp DA_A_RING
-   &kp TAB  &mt LEFT_CONTROL A  &mt LEFT_SHIFT S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL DA_AE  &kp DA_O_SLASH
- &kp LSHFT               &kp Z             &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA            &kp DOT                 &kp FSLH   &kp BACKSPACE
+&kp ESCAPE               &kp Q             &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I              &kp O                    &kp P            &kp DA_A_RING
+   &kp TAB  &mt LEFT_CONTROL A  &mt LEFT_SHIFT S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL DA_AE           &kp DA_O_SLASH
+ &kp LSHFT               &kp Z             &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA            &kp DOT             &kp DA_MINUS  &mt DA_QUESTION DA_EXCL
                                                   &kp LGUI  &lt 3 SPACE  &mo 1    &mo 2  &kp ENTER   &kp RALT
             >;
         };
@@ -103,6 +103,8 @@
  &kp LSHFT        &trans        &trans        &trans        &trans        &trans     &trans    &trans    &trans     &trans  &trans    &trans
                                             &kp LGUI        &trans     &kp SPACE    &kp RET    &trans  &kp RALT
             >;
+
+            label = "arrows";
         };
 
         raise_layer {
