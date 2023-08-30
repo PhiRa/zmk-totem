@@ -50,25 +50,25 @@
         left_bracket {
             bindings = <&kp DA_LEFT_BRACKET>;
             key-positions = <19 20>;
-            layers = <2>;
+            layers = <>;
         };
 
         right_bracket {
             bindings = <&kp DA_RIGHT_BRACKET>;
             key-positions = <20 21>;
-            layers = <2>;
+            layers = <>;
         };
 
         left_brace {
             bindings = <&kp RS(RA(DA_N7))>;
             key-positions = <7 8>;
-            layers = <2>;
+            layers = <>;
         };
 
         right_brace {
             bindings = <&kp RS(RA(DA_N8))>;
             key-positions = <8 9>;
-            layers = <2>;
+            layers = <>;
         };
     };
 
@@ -86,7 +86,7 @@
 &kp ESCAPE               &kp Q             &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I              &kp O                    &kp P            &kp DA_A_RING
    &kp TAB  &mt LEFT_CONTROL A  &mt LEFT_SHIFT S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL DA_AE           &kp DA_O_SLASH
  &kp LSHFT               &kp Z             &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA            &kp DOT             &kp DA_MINUS  &mt DA_QUESTION DA_EXCL
-                                                  &kp LGUI  &lt 3 SPACE  &mo 1    &mo 2  &kp ENTER   &kp RALT
+                                                  &kp LGUI  &lt 2 SPACE  &mo 1    &mo 3  &kp ENTER   &kp RALT
             >;
         };
 
@@ -107,21 +107,6 @@
             label = "arrows";
         };
 
-        raise_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-  &kp TAB  &kp DA_EXCL  &kp DA_AT  &kp DA_HASH  &kp DA_DLLR  &kp DA_PRCNT    &kp DA_CARET   &kp DA_AMPS  &kp KP_MULTIPLY  &kp DA_LPAR  &kp DA_RPAR      &kp BSPC
-&kp LCTRL       &trans     &trans       &trans       &trans        &trans    &kp DA_MINUS  &kp DA_EQUAL      &kp DA_LBKT  &kp DA_RBKT  &kp DA_BSLH  &kp DA_GRAVE
-&kp LSHFT       &trans     &trans       &trans       &trans        &trans    &kp DA_UNDER   &kp DA_PLUS      &kp DA_LBRC  &kp DA_RBRC  &kp DA_PIPE  &kp DA_TILDE
-                                      &kp LGUI       &trans     &kp SPACE         &kp RET        &trans         &kp RALT
-            >;
-        };
-
         numeric {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp N7  &kp N8  &kp N9  &trans  &trans
@@ -131,6 +116,17 @@
             >;
 
             label = "num";
+        };
+
+        function {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "fun";
         };
     };
 };
