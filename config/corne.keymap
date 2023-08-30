@@ -50,25 +50,21 @@
         left_bracket {
             bindings = <&kp DA_LEFT_BRACKET>;
             key-positions = <19 20>;
-            layers = <>;
         };
 
         right_bracket {
             bindings = <&kp DA_RIGHT_BRACKET>;
             key-positions = <20 21>;
-            layers = <>;
         };
 
         left_brace {
             bindings = <&kp RS(RA(DA_N7))>;
             key-positions = <7 8>;
-            layers = <>;
         };
 
         right_brace {
             bindings = <&kp RS(RA(DA_N8))>;
             key-positions = <8 9>;
-            layers = <>;
         };
     };
 
@@ -120,9 +116,9 @@
 
         function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
