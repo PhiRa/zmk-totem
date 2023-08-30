@@ -81,10 +81,10 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-&kp ESCAPE               &kp Q             &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I              &kp O                    &kp P            &kp DA_A_RING
-   &kp TAB  &mt LEFT_CONTROL A  &mt LEFT_SHIFT S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL DA_AE           &kp DA_O_SLASH
- &kp LSHFT               &kp Z             &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA            &kp DOT             &kp DA_MINUS  &mt DA_QUESTION DA_EXCL
-                                                  &kp LGUI  &lt 2 SPACE  &mo 1    &mo 3  &kp ENTER   &kp RALT
+&kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I     &kp O         &kp P            &kp DA_A_RING
+   &kp TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &kp DA_L     &kp DA_AE           &kp DA_O_SLASH
+ &kp LSHFT  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA   &kp DOT  &kp DA_MINUS  &mt DA_QUESTION DA_EXCL
+                          &kp LGUI  &lt 2 SPACE  &mo 1    &mo 3  &kp ENTER   &kp RALT
             >;
         };
 
