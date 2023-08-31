@@ -77,7 +77,7 @@
 
         power-toggle {
             bindings = <&ext_power EP_TOG>;
-            key-positions = <11 23 35>;
+            key-positions = <0 12 24>;
             layers = <0>;
         };
     };
