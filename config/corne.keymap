@@ -150,9 +150,9 @@
 
         function {
             bindings = <
-&trans    &trans     &trans  &trans  &trans  &trans         &kp DA_SLASH  &kp F7  &kp F8  &kp F9  &trans  &trans
-&trans  &smiling  &laughing  &trans  &trans  &trans    &kp RS(RA(DA_N7))  &kp F4  &kp F5  &kp F6  &trans  &trans
-&trans    &trans     &trans  &trans  &trans  &trans        &kp DA_DOLLAR  &kp F1  &kp F2  &kp F3  &trans  &trans
+&trans    &trans     &trans  &trans  &trans  &trans         &kp DA_SLASH  &kp F7  &kp F8  &kp F9  &trans    &kp C_VOLUME_UP
+&trans  &smiling  &laughing  &trans  &trans  &trans    &kp RS(RA(DA_N7))  &kp F4  &kp F5  &kp F6  &trans  &kp C_VOLUME_DOWN
+&trans    &trans     &trans  &trans  &trans  &trans        &kp DA_DOLLAR  &kp F1  &kp F2  &kp F3  &trans             &trans
                              &trans  &trans  &trans               &trans  &trans  &trans
             >;
 
