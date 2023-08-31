@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include "keys_da.h"
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/keys.h>
 
@@ -41,33 +42,42 @@
         left_bracket {
             bindings = <&kp DA_LEFT_BRACKET>;
             key-positions = <14 15>;
+            layers = <0>;
         };
 
         right_bracket {
             bindings = <&kp DA_RIGHT_BRACKET>;
             key-positions = <15 16>;
+            layers = <0>;
         };
 
         left_brace {
             bindings = <&kp RS(RA(DA_N8))>;
             key-positions = <7 8 26 27>;
-            layers = <3>;
+            layers = <0>;
         };
 
         right_brace {
             bindings = <&kp RS(RA(DA_N9))>;
             key-positions = <28 27>;
-            layers = <3>;
+            layers = <0>;
         };
 
         quotation_combo {
             bindings = <&kp DA_DOUBLE_QUOTES>;
             key-positions = <4 5>;
+            layers = <0>;
         };
 
         single-quote {
             bindings = <&kp DA_SINGLE_QUOTE>;
             key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        power-toggle {
+            bindings = <&ext_power EP_TOG>;
+            key-positions = <11 23 35>;
             layers = <0>;
         };
     };
