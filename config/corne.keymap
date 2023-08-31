@@ -8,6 +8,7 @@
 #include "keys_da.h"
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     combos {
@@ -101,9 +102,9 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-   &kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I     &kp O         &kp P                 &kp DA_A_RING
-&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &kp DA_L     &kp DA_AE  &mt RSHFT DA_O_SLASH
-    &kp LCTRL  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA   &kp DOT   &mt DA_QUESTION DA_EXCL      &mt RCTRL DA_MINUS
+   &kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I     &kp O                    &kp P         &kp DA_A_RING
+&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &kp DA_L                &kp DA_AE  &mt RSHFT DA_O_SLASH
+    &kp LCTRL  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA   &kp DOT  &mt DA_QUESTION DA_EXCL    &mt RCTRL DA_MINUS
                              &kp LGUI  &lt 2 SPACE  &mo 1    &mo 3  &kp ENTER   &kp RALT
             >;
         };
@@ -127,10 +128,10 @@
 
         numeric {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans    &trans  &kp DA_N0  &trans
+&trans       &trans           &trans  &trans  &trans  &trans    &trans     &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &kt LC(TAB)  &kt LC(LS(TAB))  &trans  &trans  &trans    &trans     &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans       &trans           &trans  &trans  &trans  &trans    &trans     &kp N1  &kp N2  &kp N3  &trans  &trans
+                                      &trans  &trans  &trans    &trans  &kp DA_N0  &trans
             >;
 
             label = "num";
