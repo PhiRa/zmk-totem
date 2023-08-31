@@ -74,6 +74,12 @@
             bindings = <&kp DA_DOUBLE_QUOTES>;
             key-positions = <2 3>;
         };
+
+        single-quote {
+            bindings = <&kp DA_SINGLE_QUOTE>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
     };
 
     macros {
