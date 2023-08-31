@@ -115,7 +115,7 @@
             >;
         };
 
-        lower_layer {
+        arrows {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -123,10 +123,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &kp TAB      &trans        &trans        &trans  &bt BT_PRV  &bt BT_NXT     &trans    &trans    &kp UP     &trans  &trans  &kp BSPC
-&bt BT_CLR  &kp LSHIFT  &kp LEFT_ALT  &kp LEFT_GUI      &trans      &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans
- &kp LSHFT      &trans        &trans        &trans      &trans      &trans     &trans    &trans    &trans     &trans  &trans    &trans
-                                            &trans      &trans      &trans    &kp RET    &trans  &kp RALT
+   &kp TAB  &trans        &trans          &trans  &bt BT_PRV  &bt BT_NXT     &trans    &trans    &kp UP     &trans  &trans  &trans
+&bt BT_CLR  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT   &kp LCTRL      &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+    &trans  &trans        &trans          &trans      &trans      &trans     &trans    &trans    &trans     &trans  &trans  &trans
+                                          &trans      &trans      &trans    &kp RET    &trans  &kp RALT
             >;
 
             label = "arrows+bt";
