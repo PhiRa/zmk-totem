@@ -17,13 +17,13 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
-            layers = <0>;
+            layers = <0 1 2 3>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
-            layers = <0>;
+            layers = <0 1 2 3>;
         };
 
         copy {
