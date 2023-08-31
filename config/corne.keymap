@@ -102,8 +102,8 @@
 
             bindings = <
    &kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y      &kp U      &kp I     &kp O         &kp P                 &kp DA_A_RING
-&mt LCTRL TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &kp DA_L     &kp DA_AE  &mt RIGHT_CONTROL DA_O_SLASH
-    &kp LSHFT  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA   &kp DOT  &kp DA_MINUS       &mt DA_QUESTION DA_EXCL
+&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H      &kp J      &kp K  &kp DA_L     &kp DA_AE  &mt RSHFT DA_O_SLASH
+    &kp LCTRL  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N      &kp M  &kp COMMA   &kp DOT   &mt DA_QUESTION DA_EXCL      &mt RCTRL DA_MINUS
                              &kp LGUI  &lt 2 SPACE  &mo 1    &mo 3  &kp ENTER   &kp RALT
             >;
         };
