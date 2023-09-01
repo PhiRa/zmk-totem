@@ -85,6 +85,21 @@
             key-positions = <0 1>;
             layers = <0>;
         };
+
+        hash {
+            bindings = <&kp DA_HASH>;
+            key-positions = <4 5>;
+        };
+
+        dollar {
+            bindings = <&kp DA_DOLLAR>;
+            key-positions = <16 17>;
+        };
+
+        at {
+            bindings = <&kp DA_AT>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
@@ -142,7 +157,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DA_SLASH     &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DA_MINUS     &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DA_EQUAL     &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans          &trans  &kp DA_N0  &trans
+                        &trans  &trans  &trans       &kp RCTRL  &kp DA_N0  &trans
             >;
 
             label = "num";
