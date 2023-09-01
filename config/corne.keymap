@@ -89,16 +89,19 @@
         hash {
             bindings = <&kp DA_HASH>;
             key-positions = <4 5>;
+            layers = <0>;
         };
 
         dollar {
             bindings = <&kp DA_DOLLAR>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         at {
             bindings = <&kp DA_AT>;
             key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
