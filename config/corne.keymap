@@ -52,7 +52,7 @@
 
         left_brace {
             bindings = <&kp RS(RA(DA_N8))>;
-            key-positions = <7 8 26 27>;
+            key-positions = <26 27>;
             layers = <0>;
         };
 
