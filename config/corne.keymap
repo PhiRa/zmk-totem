@@ -51,13 +51,13 @@
         };
 
         left_brace {
-            bindings = <&kp RS(RA(DA_N8))>;
+            bindings = <&kp DA_LEFT_BRACE>;
             key-positions = <26 27>;
             layers = <0>;
         };
 
         right_brace {
-            bindings = <&kp RS(RA(DA_N9))>;
+            bindings = <&kp DA_RIGHT_BRACE>;
             key-positions = <28 27>;
             layers = <0>;
         };
@@ -94,13 +94,37 @@
 
         dollar {
             bindings = <&kp DA_DOLLAR>;
-            key-positions = <16 17>;
+            key-positions = <28 29>;
             layers = <0>;
         };
 
         at {
             bindings = <&kp DA_AT>;
             key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        minus-combo {
+            bindings = <&kp DA_MINUS>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        underscore-combo {
+            bindings = <&kp DA_UNDERSCORE>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        shift-left-combo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        shift-combo-right {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <18 19>;
             layers = <0>;
         };
     };
@@ -132,7 +156,7 @@
 
             bindings = <
    &kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y                    &kp U      &kp I     &kp O                    &kp P         &kp DA_A_RING
-&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H                    &kp J      &kp K  &kp DA_L          &mt MINUS DA_AE  &mt RSHFT DA_O_SLASH
+&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H                    &kp J      &kp K  &kp DA_L       &mt DA_MINUS DA_AE  &mt RSHFT DA_O_SLASH
     &kp LCTRL  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N                    &kp M  &kp COMMA   &kp DOT  &mt DA_QUESTION DA_EXCL     &kp RIGHT_CONTROL
                             &kp LGUI     &mo 2  &lt 1 SPACE                           &mo 3  &mt RIGHT_CONTROL ENTER   &kp RALT
             >;
@@ -168,10 +192,10 @@
 
         function {
             bindings = <
-&trans    &trans     &trans  &trans  &trans  &trans         &kp DA_SLASH  &kp F7  &kp F8  &kp F9  &trans    &kp C_VOLUME_UP
-&trans  &smiling  &laughing  &trans  &trans  &trans    &kp RS(RA(DA_N7))  &kp F4  &kp F5  &kp F6  &trans  &kp C_VOLUME_DOWN
-&trans    &trans     &trans  &trans  &trans  &trans        &kp DA_DOLLAR  &kp F1  &kp F2  &kp F3  &trans             &trans
-                             &trans  &trans  &trans               &trans  &trans  &trans
+&trans    &trans     &trans  &trans  &trans  &trans        &kp DA_SLASH  &kp F7  &kp F8  &kp F9  &trans    &kp C_VOLUME_UP
+&trans  &smiling  &laughing  &trans  &trans  &trans    &kp DA_BACKSLASH  &kp F4  &kp F5  &kp F6  &trans  &kp C_VOLUME_DOWN
+&trans    &trans     &trans  &trans  &trans  &trans       &kp DA_DOLLAR  &kp F1  &kp F2  &kp F3  &trans             &trans
+                             &trans  &trans  &trans              &trans  &trans  &trans
             >;
 
             label = "fun :)";
