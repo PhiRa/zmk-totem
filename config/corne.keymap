@@ -70,7 +70,7 @@
 
         single-quote {
             bindings = <&kp DA_SINGLE_QUOTE>;
-            key-positions = <16 17>;
+            key-positions = <29 28>;
             layers = <0>;
         };
 
@@ -88,13 +88,13 @@
 
         hash {
             bindings = <&kp DA_HASH>;
-            key-positions = <4 5>;
+            key-positions = <21 20>;
             layers = <0>;
         };
 
         dollar {
             bindings = <&kp DA_DOLLAR>;
-            key-positions = <28 29>;
+            key-positions = <32 33>;
             layers = <0>;
         };
 
