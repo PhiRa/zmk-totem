@@ -137,6 +137,16 @@
             bindings = <&kp DA_COLON>;
             key-positions = <21 20>;
         };
+
+        copy_combo {
+            bindings = <&kp RC(DA_C)>;
+            key-positions = <12 13>;
+        };
+
+        paste_combo {
+            bindings = <&kp RC(DA_V)>;
+            key-positions = <24 25>;
+        };
     };
 
     macros {
