@@ -70,7 +70,7 @@
 
         single-quote {
             bindings = <&kp DA_SINGLE_QUOTE>;
-            key-positions = <16 17>;
+            key-positions = <29 28>;
             layers = <0>;
         };
 
@@ -88,13 +88,13 @@
 
         hash {
             bindings = <&kp DA_HASH>;
-            key-positions = <4 5>;
+            key-positions = <22 23>;
             layers = <0>;
         };
 
         dollar {
             bindings = <&kp DA_DOLLAR>;
-            key-positions = <28 29>;
+            key-positions = <34 35>;
             layers = <0>;
         };
 
@@ -127,6 +127,26 @@
             key-positions = <18 19>;
             layers = <0>;
         };
+
+        semicolon_combo {
+            bindings = <&kp DA_SEMICOLON>;
+            key-positions = <19 20>;
+        };
+
+        colon_combo {
+            bindings = <&kp DA_COLON>;
+            key-positions = <21 20>;
+        };
+
+        copy_combo {
+            bindings = <&kp RC(DA_C)>;
+            key-positions = <12 13>;
+        };
+
+        paste_combo {
+            bindings = <&kp RC(DA_V)>;
+            key-positions = <24 25>;
+        };
     };
 
     macros {
@@ -155,10 +175,10 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-   &kp ESCAPE  &kp Q  &kp W     &kp E        &kp R  &kp T    &kp Y                    &kp U      &kp I     &kp O                    &kp P         &kp DA_A_RING
-&mt LSHFT TAB  &kp A  &kp S     &kp D        &kp F  &kp G    &kp H                    &kp J      &kp K  &kp DA_L       &mt DA_MINUS DA_AE  &mt RSHFT DA_O_SLASH
-    &kp LCTRL  &kp Z  &kp X     &kp C        &kp V  &kp B    &kp N                    &kp M  &kp COMMA   &kp DOT  &mt DA_QUESTION DA_EXCL     &kp RIGHT_CONTROL
-                             &kp LGUI  &lt 1 SPACE  &mo 2    &mo 3  &mt RIGHT_CONTROL ENTER   &kp RALT
+&kp ESCAPE     &kp Q  &kp W  &kp E                  &kp R  &kp T          &kp Y                    &kp U  &kp I      &kp O     &kp P                    &kp DA_A_RING
+&mt LSHFT TAB  &kp A  &kp S  &kp D                  &kp F  &kp G          &kp H                    &kp J  &kp K      &kp DA_L  &mt DA_MINUS DA_AE       &mt RSHFT DA_O_SLASH
+&kp LCTRL      &kp Z  &kp X  &kp C                  &kp V  &kp B          &kp N                    &kp M  &kp COMMA  &kp DOT   &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
+                             &mt LEFT_ALT LEFT_GUI  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &kp RALT
             >;
         };
 
@@ -170,10 +190,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR  &trans        &trans          &trans  &bt BT_PRV  &bt BT_NXT     &trans    &trans    &kp UP     &trans  &trans  &trans
-    &trans  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT   &kp LCTRL      &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-    &trans  &trans        &trans          &trans      &trans      &trans     &trans    &trans    &trans     &trans  &trans  &trans
-                                          &trans      &trans      &trans    &kp RET    &trans  &kp RALT
+&bt BT_CLR  &trans  &trans        &trans          &bt BT_PRV  &bt BT_NXT    &trans   &kp PG_UP  &kp UP    &kp PAGE_DOWN  &trans  &trans
+&trans      &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL   &trans        &trans   &kp LEFT   &kp DOWN  &kp RIGHT      &trans  &trans
+&trans      &trans  &trans        &trans          &trans      &trans        &trans   &trans     &trans    &trans         &trans  &trans
+                                  &trans          &trans      &trans        &kp RET  &trans     &kp RALT
             >;
 
             label = "arrows+bt";
@@ -181,10 +201,10 @@
 
         numeric {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp DA_SLASH     &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp DA_MINUS     &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp DA_EQUAL     &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans       &kp RCTRL  &kp DA_N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp DA_SLASH  &kp N7     &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp DA_MINUS  &kp N4     &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS      &kp N1     &kp N2  &kp N3  &trans  &trans
+                        &trans  &trans  &trans    &kp RCTRL     &kp DA_N0  &trans
             >;
 
             label = "num";
@@ -192,10 +212,10 @@
 
         function {
             bindings = <
-&trans    &trans     &trans  &trans  &trans  &trans        &kp DA_SLASH  &kp F7  &kp F8  &kp F9  &trans    &kp C_VOLUME_UP
+&trans  &trans    &trans     &trans  &trans  &trans    &kp DA_SLASH      &kp F7  &kp F8  &kp F9  &trans  &kp C_VOLUME_UP
 &trans  &smiling  &laughing  &trans  &trans  &trans    &kp DA_BACKSLASH  &kp F4  &kp F5  &kp F6  &trans  &kp C_VOLUME_DOWN
-&trans    &trans     &trans  &trans  &trans  &trans       &kp DA_DOLLAR  &kp F1  &kp F2  &kp F3  &trans             &trans
-                             &trans  &trans  &trans              &trans  &trans  &trans
+&trans  &trans    &trans     &trans  &trans  &trans    &kp DA_DOLLAR     &kp F1  &kp F2  &kp F3  &trans  &trans
+                             &trans  &trans  &trans    &trans            &trans  &trans
             >;
 
             label = "fun :)";
