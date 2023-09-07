@@ -147,6 +147,11 @@
             bindings = <&kp RC(DA_V)>;
             key-positions = <24 25>;
         };
+
+        exclamation_combo {
+            bindings = <&kp DA_EXCL>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -219,15 +224,6 @@
             >;
 
             label = "fun :)";
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
         };
     };
 };
