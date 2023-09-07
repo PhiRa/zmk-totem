@@ -82,7 +82,7 @@
 
         power-on {
             bindings = <&ext_power EP_ON>;
-            key-positions = <0 1>;
+            key-positions = <1 13 25>;
             layers = <0>;
         };
 
