@@ -152,6 +152,11 @@
             bindings = <&kp DA_EXCL>;
             key-positions = <10 11>;
         };
+
+        grave-combo {
+            bindings = <&kp DA_GRAVE>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
