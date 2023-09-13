@@ -157,6 +157,11 @@
             bindings = <&kp DA_GRAVE>;
             key-positions = <31 32>;
         };
+
+        asterisk-combo {
+            bindings = <&kp DA_ASTERISK>;
+            key-positions = <10 9>;
+        };
     };
 
     macros {
