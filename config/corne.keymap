@@ -200,10 +200,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR  &trans  &trans        &trans          &bt BT_PRV  &bt BT_NXT    &trans   &kp PG_UP  &kp UP    &kp PAGE_DOWN  &trans  &trans
-&trans      &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL   &trans        &trans   &kp LEFT   &kp DOWN  &kp RIGHT      &trans  &trans
-&trans      &trans  &trans        &trans          &trans      &trans        &trans   &trans     &trans    &trans         &trans  &trans
-                                  &trans          &trans      &trans        &kp RET  &trans     &kp RALT
+&bt BT_CLR  &bt BT_PRV  &bt BT_NXT    &trans          &trans     &trans    &trans   &kp PG_UP  &kp UP    &kp PAGE_DOWN  &trans  &trans
+&trans      &trans      &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans    &trans   &kp LEFT   &kp DOWN  &kp RIGHT      &trans  &trans
+&trans      &trans      &trans        &trans          &trans     &trans    &trans   &trans     &trans    &trans         &trans  &trans
+                                      &trans          &trans     &trans    &kp RET  &trans     &kp RALT
             >;
 
             label = "arrows+bt";
