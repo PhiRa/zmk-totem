@@ -93,7 +93,7 @@
         };
 
         dollar {
-            bindings = <&kp DA_DOLLAR>;
+            bindings = <&kp DLLR>;
             key-positions = <34 35>;
             layers = <0>;
         };
