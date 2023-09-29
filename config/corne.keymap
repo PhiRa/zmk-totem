@@ -162,6 +162,11 @@
             bindings = <&kp DA_ASTERISK>;
             key-positions = <10 9>;
         };
+
+        ampersand-combo {
+            bindings = <&kp DA_AMPERSAND>;
+            key-positions = <8 20>;
+        };
     };
 
     macros {
@@ -234,6 +239,15 @@
             >;
 
             label = "fun :)";
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
