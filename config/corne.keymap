@@ -185,7 +185,7 @@
         sad_emoji: sad_emoji {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_COLON &kp KP_MINUS &kp LPAR>;
+            bindings = <&kp DA_COLON &kp KP_MINUS &kp KP_LEFT_PARENTHESIS>;
             label = "SAD_EMOJI";
         };
     };
