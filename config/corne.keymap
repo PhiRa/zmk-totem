@@ -167,6 +167,11 @@
             bindings = <&kp DA_AMPERSAND>;
             key-positions = <8 20>;
         };
+
+        ctrl-slash-combo {
+            bindings = <&kp LC(KP_SLASH)>;
+            key-positions = <5 17>;
+        };
     };
 
     macros {
