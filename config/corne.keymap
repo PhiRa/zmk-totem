@@ -169,7 +169,7 @@
         };
 
         ctrl-slash-combo {
-            bindings = <&kp LC(KP_SLASH)>;
+            bindings = <&kp LG(KP_SLASH)>;
             key-positions = <5 17>;
         };
     };
