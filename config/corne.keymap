@@ -172,6 +172,11 @@
             bindings = <&kp LG(KP_SLASH)>;
             key-positions = <5 17>;
         };
+
+        caps-combo {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
