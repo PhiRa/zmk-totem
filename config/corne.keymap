@@ -30,12 +30,14 @@
             bindings = <&kp DA_LEFT_PARENTHESIS>;
             key-positions = <3 2>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         right_paranthesis {
             bindings = <&kp DA_RIGHT_PARENTHESIS>;
             key-positions = <3 4>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         left_bracket {
