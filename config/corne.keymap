@@ -182,7 +182,7 @@
 
         shift-combo {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <38 39>;
+            key-positions = <40 37>;
         };
     };
 
