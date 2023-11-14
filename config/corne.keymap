@@ -176,12 +176,12 @@
         };
 
         caps-combo {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <17 18>;
         };
 
         shift-combo {
-            bindings = <&caps_word>;
+            bindings = <&kp LEFT_SHIFT>;
             key-positions = <40 37>;
         };
     };
