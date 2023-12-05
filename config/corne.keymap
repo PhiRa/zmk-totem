@@ -17,7 +17,7 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
-            layers = <0 1 2 3>;
+            layers = <0 2 3>;
         };
 
         delete {
@@ -183,6 +183,18 @@
         shift-combo {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <40 37>;
+        };
+
+        backspace-word {
+            bindings = <&kp RA(BACKSPACE)>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        delete-word {
+            bindings = <&kp RA(DELETE)>;
+            key-positions = <8 9>;
+            layers = <1>;
         };
     };
 
