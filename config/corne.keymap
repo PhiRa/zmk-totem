@@ -271,7 +271,7 @@
             bindings = <
 &trans  &laughing   &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans                  &trans  &trans                   &trans  &kp C_VOLUME_UP
 &trans  &smiling    &kp F4  &kp F5   &kp F6   &trans     &kp DA_BACKSLASH  &kp LS(RA(LEFT_ARROW))  &trans  &kp LS(RA(RIGHT_ARROW))  &trans  &kp C_VOLUME_DOWN
-&trans  &sad_emoji  &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &trans                  &trans  &trans                   &trans  &trans
+&trans  &sad_emoji  &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &trans                  &trans  &trans                   &trans  &kp K_MUTE
                             &kp F10  &kp F11  &kp F12    &trans            &trans                  &trans
             >;
 
