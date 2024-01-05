@@ -197,6 +197,11 @@
             key-positions = <8 9>;
             layers = <1>;
         };
+
+        escape-combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 11>;
+        };
     };
 
     macros {
