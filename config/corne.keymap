@@ -54,13 +54,13 @@
         };
 
         left_brace {
-            bindings = <&kp RS(DA_LEFT_BRACE)>;
+            bindings = <&kp RS(LEFT_BRACKET)>;
             key-positions = <26 27>;
             layers = <0>;
         };
 
         right_brace {
-            bindings = <&kp RS(DA_RIGHT_BRACE)>;
+            bindings = <&kp RS(RIGHT_BRACKET)>;
             key-positions = <28 27>;
             layers = <0>;
         };
