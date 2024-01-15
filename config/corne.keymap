@@ -102,7 +102,7 @@
         };
 
         at {
-            bindings = <&kp DA_AT>;
+            bindings = <&kp RA(DA_SQT)>;
             key-positions = <1 2>;
             layers = <0>;
         };
