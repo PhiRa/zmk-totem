@@ -143,12 +143,12 @@
 
         copy_combo {
             bindings = <&kp RC(DA_C)>;
-            key-positions = <12 13>;
+            key-positions = <25 26>;
         };
 
         paste_combo {
             bindings = <&kp RC(DA_V)>;
-            key-positions = <24 25>;
+            key-positions = <26 27>;
         };
 
         exclamation_combo {
