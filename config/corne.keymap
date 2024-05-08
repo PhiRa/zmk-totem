@@ -236,7 +236,7 @@
         winking_smiley: winking_smiley {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SEMI &kp RPAR>;
+            bindings = <&kp DA_SEMICOLON &kp RPAR>;
             label = "WINKING_SMILEY";
         };
     };
