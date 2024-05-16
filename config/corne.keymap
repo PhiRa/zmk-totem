@@ -95,13 +95,13 @@
             layers = <0>;
         };
 
-        dollar-combo-1 {
+        at-symbol {
             bindings = <&kp DA_DOLLAR>;
             key-positions = <34 35>;
             layers = <0>;
         };
 
-        dollar-combo-2 {
+        dollar-combo {
             bindings = <&kp RA(DA_SQT)>;
             key-positions = <1 2>;
             layers = <0>;
