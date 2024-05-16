@@ -95,13 +95,13 @@
             layers = <0>;
         };
 
-        dollar {
+        dollar-combo-1 {
             bindings = <&kp DA_DOLLAR>;
             key-positions = <34 35>;
             layers = <0>;
         };
 
-        at {
+        dollar-combo-2 {
             bindings = <&kp RA(DA_SQT)>;
             key-positions = <1 2>;
             layers = <0>;
