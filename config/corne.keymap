@@ -271,6 +271,17 @@
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <11 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41>;
         };
+
+        lht: lht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LHT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <350>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <28 27 26>;
+        };
     };
 
     keymap {
@@ -284,10 +295,10 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-&mt LSHIFT RA(ENTER)  &kp Q  &kp W        &kp E         &kp R        &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp DA_A_RING
-&kp TAB               &kp A  &kp S        &kp D         &kp F        &kp G          &kp H                    &kp J  &kp K                  &kp DA_L       &kp DA_AE                &kp DA_O_SLASH
-&kp LCTRL             &kp Z  &ht RC(X) X  &ht RC(C) C   &ht RC(V) V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
-                                          &kp LEFT_GUI  &mo 2        &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
+&mt LSHIFT RA(ENTER)  &kp Q  &kp W         &kp E         &kp R        &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp DA_A_RING
+&kp TAB               &kp A  &kp S         &kp D         &kp F        &kp G          &kp H                    &kp J  &kp K                  &kp DA_L       &kp DA_AE                &kp DA_O_SLASH
+&kp LCTRL             &kp Z  &lht RC(X) X  &lht RC(C) C  &ht RC(V) V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
+                                           &kp LEFT_GUI  &mo 2        &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;
         };
 
