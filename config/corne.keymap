@@ -95,18 +95,6 @@
             layers = <0>;
         };
 
-        at-symbol {
-            bindings = <&kp DA_DOLLAR>;
-            key-positions = <34 35>;
-            layers = <0>;
-        };
-
-        dollar-combo {
-            bindings = <&kp RA(DA_SQT)>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-
         minus-combo {
             bindings = <&kp DA_MINUS>;
             key-positions = <6 7>;
@@ -208,6 +196,12 @@
             bindings = <&to 0>;
             key-positions = <11 23 35>;
             layers = <4>;
+        };
+
+        dollar-symbol {
+            bindings = <&kp RA(DA_SQT)>;
+            key-positions = <35 34>;
+            layers = <0>;
         };
     };
 
