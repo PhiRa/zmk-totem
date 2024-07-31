@@ -220,7 +220,7 @@ combos:
   k: ⌫
   l: [default, numeric, function]
 - p: [8, 9]
-  k: DELETE
+  k: ⌦
   l: [default, arrows, numeric, function]
 - p: [3, 2]
   k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
@@ -291,7 +291,7 @@ combos:
   k: AGr+ ⌫
   l: [arrows]
 - p: [8, 9]
-  k: AGr+ DELETE
+  k: AGr+ ⌦
   l: [arrows]
 - p: [0, 11]
   k: ESCAPE
