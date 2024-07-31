@@ -217,9 +217,8 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [7, 8]
-  k: BACKSPACE
+  k: ⌫
   l: [default, numeric, function]
-  draw_separate: true
 - p: [8, 9]
   k: DELETE
   l: [default, arrows, numeric, function]
@@ -289,7 +288,7 @@ combos:
 - p: [40, 37]
   k: LEFT SHIFT
 - p: [7, 8]
-  k: AGr+ BACKSPACE
+  k: AGr+ ⌫
   l: [arrows]
 - p: [8, 9]
   k: AGr+ DELETE

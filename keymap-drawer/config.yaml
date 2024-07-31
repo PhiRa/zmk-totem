@@ -62,7 +62,6 @@ parse_config:
     combo_lock:   {draw_separate: true}
     combo_bslh:   {draw_separate: true}
     combo_slsh:   {draw_separate: true}
-    backspace:    {draw_separate: true}
 
   zmk_keycode_map:
     # custom mappings
@@ -82,6 +81,7 @@ parse_config:
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
+    BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
