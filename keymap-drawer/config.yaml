@@ -1,7 +1,6 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   raw_binding_map:
-    '&kp DA_A_RING': å
     '&sys_reset': Reset
     '&bootloader': Boot
     '&swapper': Win Next
@@ -63,6 +62,7 @@ parse_config:
     combo_lock:   {draw_separate: true}
     combo_bslh:   {draw_separate: true}
     combo_slsh:   {draw_separate: true}
+    backspace:    {draw_separate: true}
 
   zmk_keycode_map:
     # custom mappings

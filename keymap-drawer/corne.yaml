@@ -219,6 +219,7 @@ combos:
 - p: [7, 8]
   k: BACKSPACE
   l: [default, numeric, function]
+  draw_separate: true
 - p: [8, 9]
   k: DELETE
   l: [default, arrows, numeric, function]
