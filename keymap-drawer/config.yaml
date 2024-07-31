@@ -1,6 +1,7 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   raw_binding_map:
+    '&kp DA_A_RING': å
     '&sys_reset': Reset
     '&bootloader': Boot
     '&swapper': Win Next
