@@ -5,7 +5,6 @@ parse_config:
     '&bootloader': Boot
     '&swapper': Win Next
     '&caps_word': Caps Word
-    '&inv_qm': ¿
 
     '&kp LC(LG(LEFT))': Desk Left
     '&kp LC(LG(RIGHT))': Desk Right
