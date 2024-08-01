@@ -466,9 +466,9 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-23">
-<rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
-<text x="644" y="56" class="combo tap">
-<tspan x="644" dy="-0.6em">(LS(ZMK</tspan><tspan x="644" dy="1.2em">…</tspan>
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">
+<tspan x="784" dy="-0.6em">(LS(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 <g class="combo combopos-24">
@@ -774,9 +774,9 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
-<text x="644" y="56" class="combo tap">
-<tspan x="644" dy="-0.6em">(LS(ZMK</tspan><tspan x="644" dy="1.2em">…</tspan>
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">
+<tspan x="784" dy="-0.6em">(LS(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
@@ -1049,9 +1049,9 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
-<text x="644" y="56" class="combo tap">
-<tspan x="644" dy="-0.6em">(LS(ZMK</tspan><tspan x="644" dy="1.2em">…</tspan>
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">
+<tspan x="784" dy="-0.6em">(LS(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 <g class="combo combopos-9">
@@ -1321,9 +1321,9 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
-<text x="644" y="56" class="combo tap">
-<tspan x="644" dy="-0.6em">(LS(ZMK</tspan><tspan x="644" dy="1.2em">…</tspan>
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">
+<tspan x="784" dy="-0.6em">(LS(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 <g class="combo combopos-9">
@@ -1564,9 +1564,9 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
-<text x="644" y="56" class="combo tap">
-<tspan x="644" dy="-0.6em">(LS(ZMK</tspan><tspan x="644" dy="1.2em">…</tspan>
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">
+<tspan x="784" dy="-0.6em">(LS(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 <g class="combo combopos-7">

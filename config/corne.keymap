@@ -151,7 +151,7 @@
 
         ampersand-combo {
             bindings = <&kp DA_AMPERSAND>;
-            key-positions = <8 20>;
+            key-positions = <11 10>;
         };
 
         ctrl-slash-combo {
