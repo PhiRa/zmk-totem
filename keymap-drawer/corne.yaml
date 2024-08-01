@@ -252,6 +252,7 @@ combos:
 - p: [1, 13, 25]
   k: EP ON
   l: [default]
+  draw_separate: true
 - p: [22, 23]
   k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 3 AND HASH)))
   l: [default]
