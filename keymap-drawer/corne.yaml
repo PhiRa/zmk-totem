@@ -249,6 +249,7 @@ combos:
 - p: [0, 12, 24]
   k: EP TOG
   l: [default]
+  draw_separate: true
 - p: [1, 13, 25]
   k: EP ON
   l: [default]
