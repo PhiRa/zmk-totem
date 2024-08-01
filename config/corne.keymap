@@ -162,6 +162,7 @@
         caps-combo {
             bindings = <&caps_word>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         shift-combo {
@@ -184,6 +185,7 @@
         escape-combo {
             bindings = <&kp ESCAPE>;
             key-positions = <0 11>;
+            layers = <0>;
         };
 
         to_gaming_layer {
