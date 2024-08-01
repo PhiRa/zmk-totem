@@ -1,306 +1,306 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-    - {t: AGr+ ENTER, h: LSHIFT}
-    - Q
-    - W
-    - E
-    - R
-    - T
-    - Y
-    - U
-    - I
-    - O
-    - P
-    - DA A RING
-    - TAB
-    - A
-    - S
-    - D
-    - F
-    - G
-    - H
-    - J
-    - K
-    - DA L
-    - DA AE
-    - DA O SLASH
-    - LCTRL
-    - Z
-    - {t: X, h: Ctl+ X}
-    - {t: C, h: Ctl+ C}
-    - {t: V, h: Ctl+ V}
-    - B
-    - N
-    - M
-    - ','
-    - DA PERIOD
-    - {t: DA EXCL, h: DA QUESTION}
-    - RIGHT CONTROL
-    - LEFT GUI
-    - numeric
-    - {t: SPACE, h: arrows}
-    - {t: ENTER, h: RIGHT CONTROL}
-    - function
-    - {t: Ctl+ TAB, h: RIGHT ALT}
+  - {t: AGr+ ENTER, h: LSHIFT}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - ↹
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD L))
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - Ctrl
+  - Z
+  - {t: X, h: Ctl+ X}
+  - {t: C, h: Ctl+ C}
+  - {t: V, h: Ctl+ V}
+  - B
+  - N
+  - M
+  - ','
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))) ((LS(ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))'
+  - RIGHT CONTROL
+  - LEFT GUI
+  - numeric
+  - {t: ␣, h: arrows}
+  - {t: ENTER, h: RIGHT CONTROL}
+  - function
+  - {t: Ctl+ ↹, h: RIGHT ALT}
   arrows:
-    - BT PRV
-    - BT NXT
-    - Sft+Alt+ LEFT ARROW
-    - {t: ▽, type: trans}
-    - AGr+Sft+ RIGHT
-    - {t: ▽, type: trans}
-    - PG UP
-    - AGr+ LEFT ARROW
-    - UP
-    - AGr+ RIGHT ARROW
-    - PAGE DOWN
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Sft+ LEFT ARROW
-    - LEFT SHIFT
-    - Sft+ RIGHT
-    - {t: ▽, type: trans}
-    - '&mkp MB4'
-    - LEFT
-    - DOWN
-    - RIGHT
-    - '&mkp MB5'
-    - {t: ▽, type: trans}
-    - BT CLR
-    - {t: ▽, type: trans}
-    - Ctl+Sft+ LEFT ARROW
-    - {t: ▽, type: trans}
-    - Sft+Ctl+ RIGHT
-    - {t: ▽, type: trans}
-    - Sft+Ctl+ LEFT ARROW
-    - Ctl+ LEFT ARROW
-    - {t: ▽, type: trans}
-    - Ctl+ RIGHT ARROW
-    - Sft+Ctl+ RIGHT ARROW
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {type: held}
-    - RET
-    - {t: ▽, type: trans}
-    - RALT
+  - BT PRV
+  - BT NXT
+  - Sft+Alt+ LEFT ARROW
+  - {t: ▽, type: trans}
+  - AGr+Sft+ →
+  - {t: ▽, type: trans}
+  - Page Up
+  - AGr+ LEFT ARROW
+  - ↑
+  - AGr+ RIGHT ARROW
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ LEFT ARROW
+  - LEFT SHIFT
+  - Sft+ →
+  - {t: ▽, type: trans}
+  - Back Click
+  - ←
+  - ↓
+  - →
+  - Forward Click
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - Ctl+Sft+ LEFT ARROW
+  - {t: ▽, type: trans}
+  - Sft+Ctl+ →
+  - {t: ▽, type: trans}
+  - Sft+Ctl+ LEFT ARROW
+  - Ctl+ LEFT ARROW
+  - {t: ▽, type: trans}
+  - Ctl+ RIGHT ARROW
+  - Sft+Ctl+ RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ⏎
+  - {t: ▽, type: trans}
+  - Alt
   numeric:
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - DA SLASH
-    - '7'
-    - '8'
-    - '9'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - DA MINUS
-    - '4'
-    - '5'
-    - '6'
-    - KP EQUAL
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - KP PLUS
-    - '1'
-    - '2'
-    - '3'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
-    - RCTRL
-    - DA 0
-    - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  - '4'
+  - '5'
+  - '6'
+  - KP EQUAL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP PLUS
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
+  - {t: ▽, type: trans}
   function:
-    - {t: ▽, type: trans}
-    - '&laughing'
-    - F7
-    - F8
-    - F9
-    - {t: ▽, type: trans}
-    - DA SLASH
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - VOLUME UP
-    - '&winking_smiley'
-    - '&smiling'
-    - F4
-    - F5
-    - F6
-    - {t: ▽, type: trans}
-    - DA BACKSLASH
-    - Sft+AGr+ LEFT ARROW
-    - {t: ▽, type: trans}
-    - Sft+AGr+ RIGHT ARROW
-    - {t: ▽, type: trans}
-    - VOLUME DOWN
-    - {t: ▽, type: trans}
-    - '&sad_emoji'
-    - F1
-    - F2
-    - F3
-    - {t: ▽, type: trans}
-    - DA DOLLAR
-    - DA PERCENT
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - MUTE
-    - F10
-    - F11
-    - F12
-    - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&laughing'
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME UP
+  - '&winking_smiley'
+  - '&smiling'
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
+  - Sft+AGr+ LEFT ARROW
+  - {t: ▽, type: trans}
+  - Sft+AGr+ RIGHT ARROW
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - '&sad_emoji'
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 4 AND DOLLAR)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 5 AND PERCENT)))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   gaming:
-    - TAB
-    - Q
-    - W
-    - E
-    - R
-    - T
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - LSHFT
-    - A
-    - S
-    - D
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - LCTRL
-    - Z
-    - X
-    - C
-    - V
-    - B
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - SPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Shift
+  - A
+  - S
+  - D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ␣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-  - p: [7, 8]
-    k: BACKSPACE
-    l: [default, numeric, function]
-  - p: [8, 9]
-    k: DELETE
-    l: [default, arrows, numeric, function]
-  - p: [3, 2]
-    k: DA LEFT PARENTHESIS
-    l: [default]
-  - p: [3, 4]
-    k: DA RIGHT PARENTHESIS
-    l: [default]
-  - p: [14, 15]
-    k: DA LEFT BRACKET
-    l: [default]
-  - p: [15, 16]
-    k: DA RIGHT BRACKET
-    l: [default]
-  - p: [26, 27]
-    k: DA LEFT BRACE
-    l: [default]
-  - p: [28, 27]
-    k: DA RIGHT BRACE
-    l: [default]
-  - p: [4, 5]
-    k: DA DOUBLE QUOTES
-    l: [default]
-  - p: [29, 28]
-    k: DA SINGLE QUOTE
-    l: [default]
-  - p: [0, 12, 24]
-    k: EP TOG
-    l: [default]
-  - p: [1, 13, 25]
-    k: EP ON
-    l: [default]
-  - p: [22, 23]
-    k: DA HASH
-    l: [default]
-  - p: [6, 7]
-    k: DA MINUS
-    l: [default]
-  - p: [30, 31]
-    k: DA UNDERSCORE
-    l: [default]
-  - p: [16, 17]
-    k: LEFT SHIFT
-    l: [default]
-  - p: [18, 19]
-    k: RIGHT SHIFT
-    l: [default]
-  - p: [19, 20]
-    k: DA SEMICOLON
-  - p: [21, 20]
-    k: DA COLON
-  - p: [12, 13]
-    k: Ctl+ DA C
-  - p: [24, 25]
-    k: Ctl+ DA V
-  - p: [31, 32]
-    k: DA GRAVE
-  - p: [10, 9]
-    k: DA ASTERISK
-  - p: [11, 10]
-    k: DA AMPERSAND
-  - p: [5, 17]
-    k: Ctl+ KP SLASH
-  - p: [17, 18]
-    k: '&caps_word'
-  - p: [40, 37]
-    k: LEFT SHIFT
-  - p: [7, 8]
-    k: AGr+ BACKSPACE
-    l: [arrows]
-  - p: [8, 9]
-    k: AGr+ DELETE
-    l: [arrows]
-  - p: [0, 11]
-    k: ESCAPE
-  - p: [11, 23, 35]
-    k: {t: gaming, h: toggle}
-    l: [default]
-  - p: [11, 23, 35]
-    k: {t: default, h: toggle}
-    l: [gaming]
-  - p: [35, 34]
-    k: AGr+ DA SQT
-    l: [default]
+- p: [7, 8]
+  k: ⌫
+  l: [default, numeric, function]
+- p: [8, 9]
+  k: ⌦
+  l: [default, arrows, numeric, function]
+- p: [3, 2]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  l: [default]
+- p: [3, 4]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
+  l: [default]
+- p: [14, 15]
+  k: (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  l: [default]
+- p: [15, 16]
+  k: (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
+  l: [default]
+- p: [26, 27]
+  k: (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  l: [default]
+- p: [28, 27]
+  k: (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
+  l: [default]
+- p: [4, 5]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 2 AND AT)))
+  l: [default]
+- p: [29, 28]
+  k: (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
+  l: [default]
+- p: [0, 12, 24]
+  k: EP TOG
+  l: [default]
+- p: [1, 13, 25]
+  k: EP ON
+  l: [default]
+- p: [22, 23]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 3 AND HASH)))
+  l: [default]
+- p: [6, 7]
+  k: (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  l: [default]
+- p: [30, 31]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
+  l: [default]
+- p: [16, 17]
+  k: LEFT SHIFT
+  l: [default]
+- p: [18, 19]
+  k: RIGHT SHIFT
+  l: [default]
+- p: [19, 20]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
+- p: [21, 20]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+- p: [12, 13]
+  k: Ctl+ (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD C))
+- p: [24, 25]
+  k: Ctl+ (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD V))
+- p: [31, 32]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD EQUAL AND PLUS)))
+- p: [10, 9]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
+- p: [11, 10]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 6 AND CARET)))
+- p: [5, 17]
+  k: Ctl+ KP SLASH
+- p: [17, 18]
+  k: Caps Word
+- p: [40, 37]
+  k: LEFT SHIFT
+- p: [7, 8]
+  k: AGr+ ⌫
+  l: [arrows]
+- p: [8, 9]
+  k: AGr+ ⌦
+  l: [arrows]
+- p: [0, 11]
+  k: ESCAPE
+- p: [11, 23, 35]
+  k: {t: gaming, h: toggle}
+  l: [default]
+- p: [11, 23, 35]
+  k: {t: default, h: toggle}
+  l: [gaming]
+- p: [35, 34]
+  k: AGr+ ((ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
+  l: [default]
