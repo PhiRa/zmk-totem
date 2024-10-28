@@ -149,9 +149,9 @@ layers:
   - F6
   - {t: ▽, type: trans}
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - Sft+AGr+ LEFT ARROW
+  - AGr+ \
   - {t: ▽, type: trans}
-  - Sft+AGr+ RIGHT ARROW
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
   - {t: ▽, type: trans}
