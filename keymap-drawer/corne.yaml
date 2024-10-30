@@ -215,6 +215,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  colemak:
+  - {t: AGr+ ENTER, h: LSHIFT}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - ↹
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))) ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))'
+  - RIGHT CONTROL
+  - LEFT GUI
+  - numeric
+  - {t: ␣, h: arrows}
+  - {t: ENTER, h: RIGHT CONTROL}
+  - function
+  - {t: Ctl+ ↹, h: RIGHT ALT}
 combos:
 - p: [7, 8]
   k: ⌫
@@ -308,3 +351,9 @@ combos:
 - p: [35, 34]
   k: AGr+ ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
   l: [default]
+- p: [10, 22, 34]
+  k: {t: colemak, h: toggle}
+  l: [default]
+- p: [10, 22, 34]
+  k: {t: default, h: toggle}
+  l: [gaming]
