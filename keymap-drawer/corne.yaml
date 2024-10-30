@@ -356,4 +356,4 @@ combos:
   l: [default]
 - p: [10, 22, 34]
   k: {t: default, h: toggle}
-  l: [gaming]
+  l: [colemak]

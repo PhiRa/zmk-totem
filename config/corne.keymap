@@ -215,7 +215,7 @@
         to-default-from-colemak {
             bindings = <&to 0>;
             key-positions = <10 22 34>;
-            layers = <4>;
+            layers = <5>;
         };
     };
 
