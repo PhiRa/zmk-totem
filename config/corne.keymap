@@ -18,63 +18,63 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
-            layers = <0 2 3>;
+            layers = <0 2 3 5>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
-            layers = <0 1 2 3>;
+            layers = <0 1 2 3 5>;
         };
 
         left_paranthesis {
             bindings = <&kp DA_LEFT_PARENTHESIS>;
             key-positions = <3 2>;
-            layers = <0>;
+            layers = <0 5>;
             timeout-ms = <20>;
         };
 
         right_paranthesis {
             bindings = <&kp DA_RIGHT_PARENTHESIS>;
             key-positions = <3 4>;
-            layers = <0>;
+            layers = <0 5>;
             timeout-ms = <20>;
         };
 
         left_bracket {
             bindings = <&kp DA_LEFT_BRACKET>;
             key-positions = <14 15>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         right_bracket {
             bindings = <&kp DA_RIGHT_BRACKET>;
             key-positions = <15 16>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         left_brace {
             bindings = <&kp DA_LEFT_BRACE>;
             key-positions = <26 27>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         right_brace {
             bindings = <&kp DA_RIGHT_BRACE>;
             key-positions = <28 27>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         quotation_combo {
             bindings = <&kp DA_DOUBLE_QUOTES>;
             key-positions = <4 5>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         single-quote {
             bindings = <&kp DA_SINGLE_QUOTE>;
             key-positions = <29 28>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         power-toggle {
@@ -92,51 +92,55 @@
         hash {
             bindings = <&kp DA_HASH>;
             key-positions = <22 23>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         minus-combo {
             bindings = <&kp DA_MINUS>;
             key-positions = <6 7>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         underscore-combo {
             bindings = <&kp DA_UNDERSCORE>;
             key-positions = <30 31>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         shift-left-combo {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         shift-combo-right {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <18 19>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         semicolon_combo {
             bindings = <&kp DA_SEMICOLON>;
             key-positions = <19 20>;
+            layers = <0 5>;
         };
 
         colon_combo {
             bindings = <&kp DA_COLON>;
             key-positions = <21 20>;
+            layers = <0 5>;
         };
 
         copy_combo {
             bindings = <&kp RC(DA_C)>;
             key-positions = <12 13>;
+            layers = <0 5>;
         };
 
         paste_combo {
             bindings = <&kp RC(DA_V)>;
             key-positions = <24 25>;
+            layers = <0 5>;
         };
 
         grave-combo {
@@ -157,12 +161,13 @@
         ctrl-slash-combo {
             bindings = <&kp LC(KP_SLASH)>;
             key-positions = <5 17>;
+            layers = <0 5>;
         };
 
         caps-combo {
             bindings = <&caps_word>;
             key-positions = <17 18>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         shift-combo {
@@ -185,7 +190,7 @@
         escape-combo {
             bindings = <&kp ESCAPE>;
             key-positions = <0 11>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         to_gaming_layer {
