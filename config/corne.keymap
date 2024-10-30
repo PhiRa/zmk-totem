@@ -368,9 +368,9 @@
 
         colemak {
             bindings = <
-&mt LSHIFT RA(ENTER)  &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp DA_A_RING
-&kp TAB               &kp A  &kp S  &kp D         &kp F  &kp G          &kp H                    &kp J  &kp K                  &kp L          &kp DA_AE                &kp DA_O_SLASH
-&kp LCTRL             &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
+&mt LSHIFT RA(ENTER)  &kp Q  &kp W  &kp F         &kp P  &kp B          &kp J                    &kp L  &kp U                  &kp Y          &kp DA_AE                &kp DA_A_RING
+&kp TAB               &kp A  &kp R  &kp S         &kp T  &kp G          &kp M                    &kp N  &kp E                  &kp I          &kp O                    &kp DA_O_SLASH
+&kp LCTRL             &kp Z  &kp X  &kp C         &kp D  &kp V          &kp K                    &kp H  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
                                     &kp LEFT_GUI  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;
 
