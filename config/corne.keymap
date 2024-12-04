@@ -173,6 +173,7 @@
         shift-combo {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <40 37>;
+            layers = <0>;
         };
 
         backspace-word {

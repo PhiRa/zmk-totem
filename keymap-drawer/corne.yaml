@@ -338,6 +338,7 @@ combos:
   l: [default, clmk-dh]
 - p: [40, 37]
   k: LEFT SHIFT
+  l: [default]
 - p: [7, 8]
   k: AGr+ ⌫
   l: [arrows+bt]
