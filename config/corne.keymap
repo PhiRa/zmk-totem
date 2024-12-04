@@ -255,32 +255,6 @@
     };
 
     behaviors {
-        hmr: hmr {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            flavor = "balanced";
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <0 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-        };
-
-        hml: hml {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HML";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <6 7 8 9 10 11 19 20 21 22 23 31 32 33 34 35 40 41 6 7 8 18 19 20 30 31 32 39 40 41>;
-            hold-trigger-on-release;
-        };
-
         ht: ht {
             compatible = "zmk,behavior-hold-tap";
             label = "HT";
