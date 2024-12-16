@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Mouse ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME UP
@@ -149,9 +149,9 @@ layers:
   - F6
   - {t: ▽, type: trans}
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - AGr+ \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
   - {t: ▽, type: trans}
   - VOLUME DOWN
   - {t: ▽, type: trans}
@@ -354,9 +354,6 @@ combos:
 - p: [11, 23, 35]
   k: {t: default, h: toggle}
   l: [gaming]
-- p: [35, 34]
-  k: AGr+ ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
-  l: [default]
 - p: [10, 22, 34]
   k: {t: clmk-dh, h: toggle}
   l: [default]
