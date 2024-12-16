@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
-  - {t: AGr+ ENTER, h: LSHIFT}
+  - {t: AltGr+ENTER, h: LSHIFT}
   - Q
   - W
   - E
@@ -27,9 +27,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - Ctrl
   - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
-  - {t: V, h: Ctl+ V}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - N
   - M
@@ -42,25 +42,25 @@ layers:
   - {t: ␣, h: arrows+bt}
   - {t: ENTER, h: RIGHT CONTROL}
   - fun :)
-  - {t: Ctl+ ↹, h: RIGHT ALT}
+  - {t: Ctl+↹, h: RIGHT ALT}
   arrows+bt:
   - BT PRV
   - BT NXT
-  - Sft+Alt+ LEFT ARROW
+  - Sft+Alt+LEFT ARROW
   - {t: ▽, type: trans}
-  - AGr+Sft+ →
+  - AltGr+Sft+→
   - {t: ▽, type: trans}
   - Page Up
-  - AGr+ LEFT ARROW
+  - AltGr+LEFT ARROW
   - ↑
-  - AGr+ RIGHT ARROW
+  - AltGr+RIGHT ARROW
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ LEFT ARROW
+  - Sft+LEFT ARROW
   - LEFT SHIFT
-  - Sft+ →
+  - Sft+→
   - {t: ▽, type: trans}
   - Back Click
   - ←
@@ -70,14 +70,14 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
-  - Ctl+Sft+ LEFT ARROW
+  - Ctl+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Sft+Ctl+ →
+  - Sft+Ctl+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ LEFT ARROW
+  - Ctl+LEFT ARROW
   - {t: ▽, type: trans}
-  - Ctl+ RIGHT ARROW
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   clmk-dh:
-  - {t: AGr+ ENTER, h: LSHIFT}
+  - {t: AltGr+ENTER, h: LSHIFT}
   - Q
   - W
   - F
@@ -257,7 +257,7 @@ layers:
   - {t: ␣, h: arrows+bt}
   - {t: ENTER, h: RIGHT CONTROL}
   - fun :)
-  - {t: Ctl+ ↹, h: RIGHT ALT}
+  - {t: Ctl+↹, h: RIGHT ALT}
 combos:
 - p: [7, 8]
   k: ⌫
@@ -319,10 +319,10 @@ combos:
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   l: [default, clmk-dh]
 - p: [12, 13]
-  k: Ctl+ (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
   l: [default, clmk-dh]
 - p: [24, 25]
-  k: Ctl+ (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   l: [default, clmk-dh]
 - p: [31, 32]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD EQUAL AND PLUS)))
@@ -331,7 +331,7 @@ combos:
 - p: [11, 10]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET)))
 - p: [5, 17]
-  k: Ctl+ KP SLASH
+  k: Ctl+KP SLASH
   l: [default, clmk-dh]
 - p: [17, 18]
   k: Caps Word
@@ -340,10 +340,10 @@ combos:
   k: LEFT SHIFT
   l: [default]
 - p: [7, 8]
-  k: AGr+ ⌫
+  k: AltGr+⌫
   l: [arrows+bt]
 - p: [8, 9]
-  k: AGr+ ⌦
+  k: AltGr+⌦
   l: [arrows+bt]
 - p: [0, 11]
   k: ESCAPE
