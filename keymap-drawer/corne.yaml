@@ -152,7 +152,7 @@ layers:
   - Mouse ←
   - Mouse ↓
   - Mouse →
-  - {t: ▽, type: trans}
+  - Left Click
   - VOLUME DOWN
   - {t: ▽, type: trans}
   - '&sad_emoji'
@@ -164,7 +164,7 @@ layers:
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - {t: ▽, type: trans}
+  - Right Click
   - MUTE
   - F10
   - F11
