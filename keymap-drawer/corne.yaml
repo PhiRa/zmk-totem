@@ -360,3 +360,7 @@ combos:
 - p: [10, 22, 34]
   k: {t: default, h: toggle}
   l: [clmk-dh]
+- p: [27, 32]
+  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+- p: [28, 31]
+  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
