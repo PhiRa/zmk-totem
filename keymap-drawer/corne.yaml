@@ -27,9 +27,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - Ctrl
   - Z
-  - {t: X, h: Ctl+X}
-  - {t: C, h: Ctl+C}
-  - {t: V, h: Ctl+V}
+  - X
+  - C
+  - V
   - B
   - N
   - M
