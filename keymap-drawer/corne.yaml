@@ -49,7 +49,7 @@ layers:
   - Sft+Alt+LEFT ARROW
   - {t: ▽, type: trans}
   - AltGr+Sft+→
-  - {t: ▽, type: trans}
+  - '&selectwords'
   - Page Up
   - AltGr+LEFT ARROW
   - ↑

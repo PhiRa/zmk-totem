@@ -282,6 +282,13 @@
             flavor = "tap-preferred";
             hold-trigger-key-positions = <28 27 26>;
         };
+
+        selectwords: selectwords {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SELECT-WORDS";
+            #binding-cells = <0>;
+            bindings = <&kp LA(UP)>;
+        };
     };
 
     keymap {
@@ -310,10 +317,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_PRV  &bt BT_NXT  &kp LS(LA(LEFT_ARROW))  &trans          &kp RA(LS(RIGHT))  &trans    &kp PG_UP  &kp RA(LEFT_ARROW)  &kp UP    &kp RA(RIGHT_ARROW)  &kp PAGE_DOWN  &trans
-&trans      &trans      &kp LS(LEFT_ARROW)      &kp LEFT_SHIFT  &kp LS(RIGHT)      &trans    &mkp MB4   &kp LEFT            &kp DOWN  &kp RIGHT            &mkp MB5       &trans
-&bt BT_CLR  &trans      &kp LC(LS(LEFT_ARROW))  &trans          &kp LS(LC(RIGHT))  &trans    &trans     &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT_ARROW)  &trans         &trans
-                                                &trans          &trans             &trans    &kp RET    &trans              &kp RALT
+&bt BT_PRV  &bt BT_NXT  &kp LS(LA(LEFT_ARROW))  &trans          &kp RA(LS(RIGHT))  &selectwords    &kp PG_UP  &kp RA(LEFT_ARROW)  &kp UP    &kp RA(RIGHT_ARROW)  &kp PAGE_DOWN  &trans
+&trans      &trans      &kp LS(LEFT_ARROW)      &kp LEFT_SHIFT  &kp LS(RIGHT)      &trans          &mkp MB4   &kp LEFT            &kp DOWN  &kp RIGHT            &mkp MB5       &trans
+&bt BT_CLR  &trans      &kp LC(LS(LEFT_ARROW))  &trans          &kp LS(LC(RIGHT))  &trans          &trans     &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT_ARROW)  &trans         &trans
+                                                &trans          &trans             &trans          &kp RET    &trans              &kp RALT
             >;
 
             label = "arrows+bt";
