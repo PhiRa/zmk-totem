@@ -259,6 +259,20 @@
             bindings = <&kp DA_SEMICOLON &kp DA_RIGHT_PARENTHESIS>;
             label = "WINKING_SMILEY";
         };
+
+        select_word_1: select_word_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(UP)>;
+            label = "SELECT_WORD_1";
+        };
+
+        select_word_2: select_word_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(UP) &kp RA(UP)>;
+            label = "SELECT_WORD_2";
+        };
     };
 
     behaviors {
@@ -287,7 +301,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SELECT-WORDS";
             #binding-cells = <0>;
-            bindings = <&kp LA(UP)>;
+            bindings = <&select_word_1>, <&select_word_2>;
         };
     };
 
