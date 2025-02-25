@@ -220,12 +220,12 @@
             layers = <5>;
         };
 
-        copy-combo {
+        copy-combo-2 {
             bindings = <&kp RC(DA_C)>;
             key-positions = <27 32>;
         };
 
-        paste-combo {
+        paste-combo-2 {
             bindings = <&kp RC(DA_V)>;
             key-positions = <28 31>;
         };
