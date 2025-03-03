@@ -308,6 +308,13 @@
             #binding-cells = <0>;
             bindings = <&select_word_1>, <&select_word_2>;
         };
+
+        swapper: swapper {
+            compatible = "zmk,behavior-smart-toggle";
+            #binding-cells = <0>;
+            bindings = <&kp LALT>, <&kp TAB>;
+            ignored-key-positions = <LM3 RM1 RM2 RM3 RT2>;
+        };
     };
 
     keymap {
