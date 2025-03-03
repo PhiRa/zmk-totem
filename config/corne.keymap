@@ -316,6 +316,13 @@
             bindings = <&kp LALT>, <&kp TAB>;
             ignored-key-positions = <SWP_POS RM1 RM2 RM3 RT2>;
         };
+        ht_sw: ht_sw {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&swapper>;
+        };
     };
 
     keymap {
