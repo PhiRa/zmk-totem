@@ -309,12 +309,20 @@
             bindings = <&select_word_1>, <&select_word_2>;
         };
 
-//        swapper: swapper {
-//            compatible = "zmk,behavior-smart-toggle";
-//            #binding-cells = <0>;
-//            bindings = <&kp LALT>, <&kp TAB>;
-//            ignored-key-positions = <LM3 RM1 RM2 RM3 RT2>;
-//        };
+        swapper: swapper {
+            compatible = "zmk,behavior-smart-toggle";
+            #binding-cells = <0>;
+            bindings = <&kp LALT>, <&kp TAB>;
+            ignored-key-positions = <>;
+        };
+
+        ht_sw: ht_sw {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&swapper>;
+        };
     };
 
     keymap {
