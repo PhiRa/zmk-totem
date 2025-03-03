@@ -61,7 +61,7 @@ layers:
   - Sft+LEFT ARROW
   - LEFT SHIFT
   - Sft+→
-  - {t: ▽, type: trans}
+  - {t: Win Next, h: ↹}
   - Back Click
   - ←
   - ↓
@@ -73,7 +73,7 @@ layers:
   - Ctl+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Sft+Ctl+→
-  - {t: ▽, type: trans}
+  - {t: Win Next, h: Win Prev}
   - {t: ▽, type: trans}
   - Ctl+LEFT ARROW
   - {t: ▽, type: trans}
