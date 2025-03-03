@@ -73,7 +73,7 @@ layers:
   - Ctl+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Sft+Ctl+→
-  - Win Prev
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - Ctl+LEFT ARROW
   - {t: ▽, type: trans}
