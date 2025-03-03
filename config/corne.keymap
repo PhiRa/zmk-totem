@@ -353,7 +353,7 @@
 
             bindings = <
 &bt BT_PRV  &bt BT_NXT  &kp LS(LA(LEFT_ARROW))  &trans          &kp RA(LS(RIGHT))  &selectwords    &kp PG_UP  &kp RA(LEFT_ARROW)  &kp UP    &kp RA(RIGHT_ARROW)  &kp PAGE_DOWN  &trans
-&trans      &trans      &kp LS(LEFT_ARROW)      &kp LEFT_SHIFT  &kp LS(RIGHT)      &ht_sw TAB 0    &mkp MB4   &kp LEFT            &kp DOWN  &kp RIGHT            &mkp MB5       &trans
+&trans      &trans      &kp LS(LEFT_ARROW)      &kp LEFT_SHIFT  &kp LS(RIGHT)      &swapper        &mkp MB4   &kp LEFT            &kp DOWN  &kp RIGHT            &mkp MB5       &trans
 &bt BT_CLR  &trans      &kp LC(LS(LEFT_ARROW))  &trans          &kp LS(LC(RIGHT))  &kp LS(TAB)     &trans     &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT_ARROW)  &trans         &trans
                                                 &trans          &trans             &trans          &kp RET    &trans              &kp RALT
             >;

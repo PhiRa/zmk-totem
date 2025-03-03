@@ -61,7 +61,7 @@ layers:
   - Sft+LEFT ARROW
   - LEFT SHIFT
   - Sft+→
-  - {t: Win Next, h: ↹}
+  - Win Next
   - Back Click
   - ←
   - ↓
