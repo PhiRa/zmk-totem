@@ -147,7 +147,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: ▽, type: trans}
+  - '&ht_sw LALT 0'
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - Mouse ←
   - Mouse ↓
