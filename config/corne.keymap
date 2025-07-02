@@ -338,10 +338,10 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-&mt LSHIFT RA(ENTER)  &kp Q  &kp W              &kp E           &kp R              &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp DA_A_RING
-&kp TAB               &kp A  &kp S              &kp D           &kp F              &kp G          &kp H                    &kp J  &kp K                  &kp DA_L       &kp DA_AE                &kp DA_O_SLASH
-&kp LCTRL             &kp Z  &mt RC(DA_X) DA_X  &mt RC(C) DA_C  &mt RC(DA_V) DA_V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
-                                                &kp LEFT_GUI    &mo 2              &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
+&mt LSHIFT RA(ENTER)  &kp Q  &kp W     &kp E         &kp R     &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp DA_A_RING
+&kp TAB               &kp A  &kp S     &kp D         &kp F     &kp G          &kp H                    &kp J  &kp K                  &kp DA_L       &kp DA_AE                &kp DA_O_SLASH
+&kp LCTRL             &kp Z  &kp DA_X  &kp DA_C      &kp DA_V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DA_PERIOD  &mt DA_QUESTION DA_EXCL  &kp RIGHT_CONTROL
+                                       &kp LEFT_GUI  &mo 2     &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;
         };
 
