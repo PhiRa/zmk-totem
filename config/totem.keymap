@@ -70,7 +70,7 @@
         };
 
         single-quote-combo {
-            bindings = <&kp SINGLE_QUOTE>;
+            bindings = <&kp DA_SINGLE_QUOTE>;
             key-positions = <24 25>;
         };
 
@@ -87,6 +87,16 @@
         paste-combo {
             bindings = <&kp RC(V)>;
             key-positions = <25 26>;
+        };
+
+        left-shift-combo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <13 14>;
+        };
+
+        right-shift-combo {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <15 16>;
         };
     };
 
