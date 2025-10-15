@@ -60,6 +60,11 @@
             bindings = <&kp DA_A_RING>;
             key-positions = <19 31>;
         };
+
+        bt-clear-combo {
+            bindings = <&bt BT_CLR>;
+            key-positions = <9 30 21 0>;
+        };
     };
 
     macros {
