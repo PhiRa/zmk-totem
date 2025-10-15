@@ -154,6 +154,8 @@
         asterisk-combo {
             bindings = <&kp DA_ASTERISK>;
             key-positions = <10 9>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         ampersand-combo {
