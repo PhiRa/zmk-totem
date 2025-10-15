@@ -64,6 +64,26 @@
             bindings = <&bt BT_CLR>;
             key-positions = <9 30 21 0>;
         };
+
+        minus-combo {
+            bindings = <&kp MINUS>;
+            key-positions = <5 6>;
+        };
+
+        underscore-combo {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <26 27>;
+        };
+
+        single-quote-combo {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <24 25>;
+        };
+
+        double-quote-combo {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
