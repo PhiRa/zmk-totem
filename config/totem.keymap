@@ -98,6 +98,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <15 16>;
         };
+
+        bottom-shift-combo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <36 33>;
+        };
     };
 
     macros {
