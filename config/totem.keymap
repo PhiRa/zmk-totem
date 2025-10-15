@@ -103,6 +103,26 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <36 33>;
         };
+
+        semicolon-combo {
+            bindings = <&kp DA_SEMICOLON>;
+            key-positions = <16 17>;
+        };
+
+        colon-combo {
+            bindings = <&kp DA_COLON>;
+            key-positions = <17 18>;
+        };
+
+        left-paran-combo {
+            bindings = <&kp DA_LEFT_PARENTHESIS>;
+            key-positions = <2 1>;
+        };
+
+        right-paran-combo {
+            bindings = <&kp DA_RIGHT_PARENTHESIS>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
