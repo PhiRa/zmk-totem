@@ -535,6 +535,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
 </text>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 328)" class="layer-arrows+bt">
@@ -799,6 +805,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 657)" class="layer-num">
@@ -1029,6 +1041,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="134" width="28" height="26" class="combo"/>
 <text x="420" y="147" class="combo tap">
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>
@@ -1281,6 +1299,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1314)" class="layer-gaming">
@@ -1502,6 +1526,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="134" width="28" height="26" class="combo"/>
 <text x="420" y="147" class="combo tap">
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>
@@ -1880,6 +1910,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="134" width="28" height="26" class="combo"/>
 <text x="420" y="147" class="combo tap">
 <tspan x="420" dy="-0.6em" style="font-size: 88%">Ctl+(ZMK</tspan><tspan x="420" dy="1.2em" style="font-size: 88%">…</tspan>
+</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">
+<tspan x="784" dy="-0.6em">(ZMK</tspan><tspan x="784" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>
