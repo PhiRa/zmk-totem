@@ -39,12 +39,6 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
-        };
-
         backspace-combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
