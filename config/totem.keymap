@@ -60,12 +60,12 @@
         };
 
         minus-combo {
-            bindings = <&kp MINUS>;
+            bindings = <&kp DA_MINUS>;
             key-positions = <5 6>;
         };
 
         underscore-combo {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp DA_UNDER>;
             key-positions = <26 27>;
         };
 
@@ -75,8 +75,18 @@
         };
 
         double-quote-combo {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp DA_DOUBLE_QUOTES>;
             key-positions = <3 4>;
+        };
+
+        copy-paste-combo {
+            bindings = <&kp RC(C)>;
+            key-positions = <8 1>;
+        };
+
+        paste-combo {
+            bindings = <&kp RC(V)>;
+            key-positions = <25 26>;
         };
     };
 
