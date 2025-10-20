@@ -164,21 +164,21 @@
         smiley_macro: smiley_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp MINUS &kp RPAR>;
+            bindings = <&kp DA_COLON &kp MINUS &kp DA_RIGHT_PARENTHESIS>;
             label = "SMILEY_MACRO";
         };
 
         wink_macro: wink_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SEMI &kp MINUS &kp RPAR>;
+            bindings = <&kp DA_SEMI &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS>;
             label = "WINK_MACRO";
         };
 
         grinning_macro: grinning_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp MINUS &kp LS(D)>;
+            bindings = <&kp DA_COLON &kp DA_MINUS &kp LS(D)>;
             label = "GRINNING_MACRO";
         };
     };
