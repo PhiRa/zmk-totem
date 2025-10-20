@@ -176,22 +176,29 @@
         smiley_macro: smiley_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_COLON &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS>;
+            bindings = <&kp DA_COLON &kp DA_RIGHT_PARENTHESIS &kp SPACE>;
             label = "SMILEY_MACRO";
         };
 
         wink_macro: wink_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_SEMI &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS>;
+            bindings = <&kp DA_SEMI &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS &kp SPACE>;
             label = "WINK_MACRO";
         };
 
         grinning_macro: grinning_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_COLON &kp DA_MINUS &kp LS(D)>;
+            bindings = <&kp DA_COLON &kp LS(D) &kp SPACE>;
             label = "GRINNING_MACRO";
+        };
+
+        sad_emoji: sac_emoji {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DA_COLON &kp DA_MINUS &kp DA_LEFT_PARENTHESIS &kp SPACE>;
+            label = "SAC_EMOJI";
         };
     };
 
@@ -280,7 +287,7 @@
             bindings = <
              &grinning_macro  &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans       &trans     &trans               &kp C_VOLUME_UP
              &smiley_macro    &kp F4  &kp F5   &kp F6   &trans     &kp DA_BACKSLASH  &trans       &trans     &trans               &kp C_VOLUME_DOWN
-&wink_macro  &trans           &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &kp PERCENT  &kp DA_LT  &kp DA_GREATER_THAN  &kp K_MUTE         &trans
+&wink_macro  &sad_emoji       &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &kp PERCENT  &kp DA_LT  &kp DA_GREATER_THAN  &kp K_MUTE         &trans
                                       &kp F10  &kp F11  &kp F12    &trans            &trans       &trans
             >;
         };
