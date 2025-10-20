@@ -145,13 +145,13 @@
         };
 
         backspace-word-combo {
-            bindings = <&kp LA(BACKSPACE)>;
+            bindings = <&kp RA(BACKSPACE)>;
             key-positions = <7 6>;
             layers = <1>;
         };
 
         delete-word-combo {
-            bindings = <&kp LA(DELETE)>;
+            bindings = <&kp RA(DELETE)>;
             key-positions = <7 8>;
             layers = <1>;
         };
