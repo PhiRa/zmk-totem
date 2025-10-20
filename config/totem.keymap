@@ -243,10 +243,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &kp LS(LA(LEFT))  &trans     &kp LS(LA(RIGHT))  &trans               &kp PG_UP  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_DN
-        &kp LSHFT  &kp LS(LEFT)      &kp LSHFT  &kp LS(RIGHT)      &trans               &trans     &kp LEFT      &kp DOWN   &kp RIGHT      &trans
-&trans  &kp DEL    &kp LS(LG(LEFT))  &kp CAPS   &kp LS(LG(RIGHT))  &kp LS(LG(RIGHT))    &trans     &kp LC(LEFT)  &kp KP_N2  &kp LC(RIGHT)  &trans     &trans
-                                     &trans     &trans             &trans               &kp RET    &kp KP_N0     &trans
+        &kp ESC    &kp LS(LA(LEFT))  &trans     &kp LS(LA(RIGHT))  &trans    &kp PG_UP  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_DN
+        &kp LSHFT  &kp LS(LEFT)      &kp LSHFT  &kp LS(RIGHT)      &trans    &trans     &kp LEFT      &kp DOWN   &kp RIGHT      &trans
+&trans  &kp DEL    &kp LS(LC(LEFT))  &kp CAPS   &kp LS(LC(RIGHT))  &trans    &trans     &kp LC(LEFT)  &kp KP_N2  &kp LC(RIGHT)  &trans     &trans
+                                     &trans     &trans             &trans    &kp RET    &kp KP_N0     &trans
             >;
         };
 
