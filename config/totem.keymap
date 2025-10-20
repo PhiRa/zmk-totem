@@ -123,6 +123,26 @@
             bindings = <&kp DA_RIGHT_PARENTHESIS>;
             key-positions = <2 3>;
         };
+
+        squared-bracket-combo {
+            bindings = <&kp DA_LEFT_BRACKET>;
+            key-positions = <11 12>;
+        };
+
+        square-bracket-close-combo {
+            bindings = <&kp DA_RIGHT_BRACKET>;
+            key-positions = <12 13>;
+        };
+
+        left-brace-combo {
+            bindings = <&kp DA_LEFT_BRACE>;
+            key-positions = <11 12>;
+        };
+
+        right-brace-combo {
+            bindings = <&kp DA_RIGHT_BRACE>;
+            key-positions = <12 13>;
+        };
     };
 
     macros {
