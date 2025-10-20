@@ -176,7 +176,7 @@
         smiley_macro: smiley_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_COLON &kp MINUS &kp DA_RIGHT_PARENTHESIS>;
+            bindings = <&kp DA_COLON &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS>;
             label = "SMILEY_MACRO";
         };
 
