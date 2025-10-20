@@ -160,6 +160,27 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
+
+        smiley_macro: smiley_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp MINUS &kp RPAR>;
+            label = "SMILEY_MACRO";
+        };
+
+        wink_macro: wink_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SEMI &kp MINUS &kp RPAR>;
+            label = "WINK_MACRO";
+        };
+
+        grinning_macro: grinning_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp MINUS &kp LS(D)>;
+            label = "GRINNING_MACRO";
+        };
     };
 
     behaviors {
@@ -245,10 +266,10 @@
 
         function {
             bindings = <
-        &trans  &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans       &trans     &trans               &kp C_VOLUME_UP
-        &trans  &kp F4  &kp F5   &kp F6   &trans     &kp DA_BACKSLASH  &trans       &trans     &trans               &kp C_VOLUME_DOWN
-&trans  &trans  &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &kp PERCENT  &kp DA_LT  &kp DA_GREATER_THAN  &kp K_MUTE         &trans
-                        &kp F10  &kp F11  &kp F12    &trans            &trans       &trans
+             &grinning_macro  &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans       &trans     &trans               &kp C_VOLUME_UP
+             &smiley_macro    &kp F4  &kp F5   &kp F6   &trans     &kp DA_BACKSLASH  &trans       &trans     &trans               &kp C_VOLUME_DOWN
+&wink_macro  &trans           &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &kp PERCENT  &kp DA_LT  &kp DA_GREATER_THAN  &kp K_MUTE         &trans
+                                      &kp F10  &kp F11  &kp F12    &trans            &trans       &trans
             >;
         };
     };
