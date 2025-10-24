@@ -138,12 +138,12 @@
 
         left-brace-combo {
             bindings = <&kp DA_LEFT_BRACE>;
-            key-positions = <11 12>;
+            key-positions = <23 22>;
         };
 
         right-brace-combo {
             bindings = <&kp DA_RIGHT_BRACE>;
-            key-positions = <12 13>;
+            key-positions = <23 24>;
         };
 
         backspace-word-combo {
