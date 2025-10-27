@@ -157,6 +157,11 @@
             key-positions = <7 8>;
             layers = <1>;
         };
+
+        esc-combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
