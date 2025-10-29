@@ -190,7 +190,7 @@
         wink_macro: wink_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_SEMI &kp DA_MINUS &kp DA_RIGHT_PARENTHESIS &kp SPACE>;
+            bindings = <&kp DA_SEMI &kp DA_RIGHT_PARENTHESIS &kp SPACE>;
             label = "WINK_MACRO";
         };
 
@@ -204,7 +204,7 @@
         sad_emoji: sac_emoji {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DA_COLON &kp DA_MINUS &kp DA_LEFT_PARENTHESIS &kp SPACE>;
+            bindings = <&kp DA_COLON &kp DA_LEFT_PARENTHESIS &kp SPACE>;
             label = "SAC_EMOJI";
         };
     };
