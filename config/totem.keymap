@@ -162,6 +162,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <20 31>;
         };
+
+        comment-code-combo {
+            bindings = <&kp LC(KP_SLASH)>;
+            key-positions = <4 14>;
+        };
     };
 
     macros {
