@@ -242,6 +242,22 @@
             bindings = <&kp DA_A_RING>;
             key-positions = <22 23>;
         };
+
+        copy-combo {
+            bindings = <&kp RC(C)>;
+            key-positions = <2 9>;
+        };
+
+        paste-combo {
+            bindings = <&kp RC(DA_V)>;
+            key-positions = <30 29>;
+            layers = <0 5>;
+        };
+
+        a_ring-combo {
+            bindings = <&kp DA_A_RING>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
