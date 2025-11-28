@@ -297,7 +297,7 @@
 
         function {
             bindings = <
-             &grinning_macro  &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans       &trans     &trans               &kp C_VOLUME_UP
+             &grinning_macro  &kp F7  &kp F8   &kp F9   &trans     &kp DA_SLASH      &trans       &trans     &kp A                &kp C_VOLUME_UP
              &smiley_macro    &kp F4  &kp F5   &kp F6   &trans     &kp DA_BACKSLASH  &trans       &trans     &trans               &kp C_VOLUME_DOWN
 &wink_macro  &sad_emoji       &kp F1  &kp F2   &kp F3   &trans     &kp DA_DOLLAR     &kp PERCENT  &kp DA_LT  &kp DA_GREATER_THAN  &kp K_MUTE         &trans
                                       &kp F10  &kp F11  &kp F12    &trans            &trans       &trans
