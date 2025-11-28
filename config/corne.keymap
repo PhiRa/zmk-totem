@@ -223,11 +223,6 @@
             layers = <5>;
         };
 
-        copy-combo-2 {
-            bindings = <&kp RC(DA_C)>;
-            key-positions = <27 32>;
-        };
-
         paste-combo-2 {
             bindings = <&kp RC(DA_V)>;
             key-positions = <28 31>;
@@ -243,7 +238,7 @@
             key-positions = <22 21>;
         };
 
-        copy-combo {
+        copy-combo-2 {
             bindings = <&kp RC(C)>;
             key-positions = <2 9>;
         };
