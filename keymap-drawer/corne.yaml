@@ -361,7 +361,7 @@ combos:
 - p: [10, 22, 34]
   k: {t: default, h: toggle}
   l: [clmk-dh]
-- p: [28, 31]
+- p: [29, 30]
   k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
 - p: [26, 33]
   k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
@@ -369,6 +369,3 @@ combos:
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
 - p: [2, 9]
   k: Ctl+C
-- p: [30, 29]
-  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
-  l: [default, clmk-dh]
