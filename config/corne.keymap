@@ -17,6 +17,10 @@
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
 
+&uc {
+  default-mode = <UC_MODE_MACOS>;  // Replace with desired input system.
+};
+
 / {
     combos {
         compatible = "zmk,combos";
