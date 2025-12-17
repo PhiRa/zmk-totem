@@ -252,6 +252,14 @@
     };
 
     macros {
+
+        m_da_ae: da_ae {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&uc_da_ae>;
+                display-name = "æ";
+        };
+
         smiling: smiling {
             compatible = "zmk,behavior-macro";
             label = "SMILING";
