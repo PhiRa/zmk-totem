@@ -1,0 +1,13 @@
+/ {
+    danish_overrides {
+        &UC_DA_AE {
+            label = "æ";
+        };
+        &UC_DA_OE {
+            label = "ø";
+        };
+        &UC_DA_AA {
+            label = "å";
+        };
+    };
+};

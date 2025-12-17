@@ -11,9 +11,12 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-// includes for unicode/danish
+// includes for unicode/danish - from urok
 #include <behaviors/unicode.dtsi>
 #include <zmk-unicode/keys.h>
+// include labels for these to work in web editor.
+#include "unicode.dtsi"
+
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
 
