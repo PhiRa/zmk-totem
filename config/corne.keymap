@@ -257,7 +257,8 @@
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
                 bindings = <&uc_da_ae>;
-                display-name = "æ";
+                label = "æ";
+                display-name = "æ"
         };
 
         smiling: smiling {
