@@ -353,7 +353,7 @@
 
             bindings = <
 &mt LSHIFT RA(ENTER)  &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y                    &kp U  &kp I                  &kp O       &kp P              &uc UC_DA_AA
-&kp TAB               &kp A  &kp S  &kp D         &kp F  &kp G          &kp H                    &kp J  &kp K                  &kp L       &uc 0xe6           &uc UC_DA_OE
+&kp TAB               &kp A  &kp S  &kp D         &kp F  &kp G          &kp H                    &kp J  &kp K                  &kp L       &uc 0xE6 0           &uc UC_DA_OE
 &kp LCTRL             &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N                    &kp M  &kp COMMA              &kp PERIOD  &mt QUESTION EXCL  &kp RIGHT_CONTROL
                                     &kp LEFT_GUI  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;

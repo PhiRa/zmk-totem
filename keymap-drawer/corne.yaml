@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - '&uc 0xe6'
+  - '&uc 0xE6 0'
   - '&uc UC_DA_OE'
   - Ctrl
   - Z
