@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - dk aa
+  - '&uc UC_DA_AA'
   - ↹
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - dk ae
-  - dk oe
+  - '&uc UC_DA_AE'
+  - '&uc UC_DA_OE'
   - Ctrl
   - Z
   - X

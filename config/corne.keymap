@@ -4,14 +4,16 @@
  * SPDX-License-Identifier: MIT
  */
 
-// #include "keys_da.h"
+
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include "unicode_macros.dtsi"
+// includes for unicode/danish
+#include <behaviors/unicode.dtsi>
+#include <zmk-unicode/keys.h>
 
 &zephyr-unicode {
     input-type = "hex";  // macOS: Enable "Unicode Hex Input" in System Settings
@@ -350,8 +352,8 @@
             //                    | GUI | SPC | LWR |   | RSE | ENT  | ALT |
 
             bindings = <
-&mt LSHIFT RA(ENTER)  &kp Q  &kp W     &kp E         &kp R     &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &kp dk_aa
-&kp TAB               &kp A  &kp S     &kp D         &kp F     &kp G          &kp H                    &kp J  &kp K                  &kp L       &kp dk_ae                &kp dk_oe
+&mt LSHIFT RA(ENTER)  &kp Q  &kp W     &kp E         &kp R     &kp T          &kp Y                    &kp U  &kp I                  &kp O          &kp P                    &uc UC_DA_AA
+&kp TAB               &kp A  &kp S     &kp D         &kp F     &kp G          &kp H                    &kp J  &kp K                  &kp L       &uc UC_DA_AE                &uc UC_DA_OE
 &kp LCTRL             &kp Z  &kp X  &kp C      &kp V  &kp B          &kp N                    &kp M  &kp COMMA              &kp PERIOD  &mt QUESTION EXCL  &kp RIGHT_CONTROL
                                        &kp LEFT_GUI  &mo 2     &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;

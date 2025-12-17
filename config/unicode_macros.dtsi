@@ -1,5 +1,0 @@
-// Danish characters via macOS Unicode Hex Input (Option + 00E6 → æ)
-ZMK_UNICODE_PAIR(dk_ae,  N0, N0, E, N6,  N0, N0, C, N6)  // æ Æ (U+00E6 U+00C6)
-ZMK_UNICODE_PAIR(dk_oe,  N0, N0, F, N8,  N0, N0, D, N8)  // ø Ø (U+00F8 U+00D8)
-ZMK_UNICODE_PAIR(dk_aa,  N0, N0, E, N5,  N0, N0, C, N5)  // å Å (U+00E5 U+00C5)
-

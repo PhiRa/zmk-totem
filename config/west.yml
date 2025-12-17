@@ -4,13 +4,18 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: zmk-smart-toggle
       remote: caksoylar
       revision: main
+    - name: zmk-unicode
+      remote: urob
+      revision: v0.3 # set to same as ZMK version above
   self:
     path: config
