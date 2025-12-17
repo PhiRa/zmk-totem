@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - dk aa
   - ↹
   - A
   - S
@@ -22,20 +22,20 @@ layers:
   - H
   - J
   - K
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - L
+  - dk ae
+  - dk oe
   - Ctrl
   - Z
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  - X
+  - C
+  - V
   - B
   - N
   - M
   - ','
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))) ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))'
+  - .
+  - {t: '!', h: '?'}
   - RIGHT CONTROL
   - LEFT GUI
   - num
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - /
   - '7'
   - '8'
   - '9'
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  - '-'
   - '4'
   - '5'
   - '6'
@@ -127,7 +127,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - Ctrl
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
+  - '0'
   - {t: ▽, type: trans}
   fun :):
   - {t: ▽, type: trans}
@@ -136,7 +136,7 @@ layers:
   - F8
   - F9
   - {t: ▽, type: trans}
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - /
   - {t: ▽, type: trans}
   - Mouse ↑
   - {t: ▽, type: trans}
@@ -161,9 +161,9 @@ layers:
   - F3
   - {t: ▽, type: trans}
   - '@'
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE))
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
+  - '%'
+  - <
+  - '>'
   - Right Click
   - MUTE
   - F10
@@ -226,8 +226,8 @@ layers:
   - L
   - U
   - Y
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - AE
+  - A RING
   - ↹
   - A
   - R
@@ -239,7 +239,7 @@ layers:
   - E
   - I
   - O
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - O SLASH
   - Ctrl
   - Z
   - X
@@ -249,8 +249,8 @@ layers:
   - K
   - H
   - ','
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))) ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))'
+  - .
+  - {t: '!', h: '?'}
   - RIGHT CONTROL
   - LEFT GUI
   - num
@@ -266,28 +266,28 @@ combos:
   k: ⌦
   l: [default, arrows+bt, num, 'fun :)', clmk-dh]
 - p: [3, 2]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  k: (
   l: [default, clmk-dh]
 - p: [3, 4]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
+  k: )
   l: [default, clmk-dh]
 - p: [14, 15]
-  k: (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  k: '['
   l: [default, clmk-dh]
 - p: [15, 16]
-  k: (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
+  k: ']'
   l: [default, clmk-dh]
 - p: [26, 27]
-  k: (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  k: '{'
   l: [default, clmk-dh]
 - p: [28, 27]
-  k: (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
+  k: '}'
   l: [default, clmk-dh]
 - p: [4, 5]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT)))
+  k: '"'
   l: [default, clmk-dh]
 - p: [29, 28]
-  k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
+  k: ''''
   l: [default, clmk-dh]
 - p: [0, 12, 24]
   k: EP TOG
@@ -298,13 +298,13 @@ combos:
   l: [default]
   draw_separate: true
 - p: [22, 23]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH)))
+  k: '#'
   l: [default, clmk-dh]
 - p: [6, 7]
-  k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  k: '-'
   l: [default, clmk-dh]
 - p: [30, 31]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
+  k: _
   l: [default, clmk-dh]
 - p: [16, 17]
   k: LEFT SHIFT
@@ -313,24 +313,24 @@ combos:
   k: RIGHT SHIFT
   l: [default, clmk-dh]
 - p: [19, 20]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
+  k: ;
   l: [default, clmk-dh]
 - p: [21, 20]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  k: ':'
   l: [default, clmk-dh]
 - p: [12, 13]
-  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+  k: Ctl+C
   l: [default, clmk-dh]
 - p: [24, 25]
-  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  k: Ctl+V
   l: [default, clmk-dh]
 - p: [31, 32]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD EQUAL AND PLUS)))
+  k: '`'
 - p: [10, 9]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
+  k: '*'
   l: [default]
 - p: [11, 10]
-  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET)))
+  k: '&'
 - p: [5, 17]
   k: Ctl+KP SLASH
   l: [default, clmk-dh]
@@ -362,10 +362,10 @@ combos:
   k: {t: default, h: toggle}
   l: [clmk-dh]
 - p: [29, 30]
-  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  k: Ctl+V
 - p: [26, 33]
-  k: Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
+  k: Ctl+X
 - p: [22, 21]
-  k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  k: A RING
 - p: [2, 9]
   k: Ctl+C
