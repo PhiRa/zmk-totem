@@ -15,10 +15,6 @@
 #include <behaviors/unicode.dtsi>
 #include <zmk-unicode/keys.h>
 
-&zephyr-unicode {
-    input-type = "hex";  // macOS: Enable "Unicode Hex Input" in System Settings
-};
-
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
 
 / {
