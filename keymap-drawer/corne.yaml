@@ -226,8 +226,8 @@ layers:
   - L
   - U
   - Y
-  - AE
-  - A RING
+  - A
+  - A
   - ↹
   - A
   - R
@@ -239,7 +239,7 @@ layers:
   - E
   - I
   - O
-  - O SLASH
+  - O
   - Ctrl
   - Z
   - X
@@ -365,7 +365,5 @@ combos:
   k: Ctl+V
 - p: [26, 33]
   k: Ctl+X
-- p: [22, 21]
-  k: A RING
 - p: [2, 9]
   k: Ctl+C

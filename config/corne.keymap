@@ -236,10 +236,10 @@
             key-positions = <26 33>;
         };
 
-        a-ring-combo {
-            bindings = <&kp A_RING>;
-            key-positions = <22 21>;
-        };
+//        a-ring-combo {
+//            bindings = <&kp A_RING>;
+//            key-positions = <22 21>;
+//        };
 
         copy-combo-2 {
             bindings = <&kp RC(C)>;
@@ -407,8 +407,8 @@
 
         colemak {
             bindings = <
-&mt LSHIFT RA(ENTER)  &kp Q  &kp W  &kp F         &kp P  &kp B          &kp J                    &kp L  &kp U                  &kp Y          &kp AE                &kp A_RING
-&kp TAB               &kp A  &kp R  &kp S         &kp T  &kp G          &kp M                    &kp N  &kp E                  &kp I          &kp O                    &kp O_SLASH
+&mt LSHIFT RA(ENTER)  &kp Q  &kp W  &kp F         &kp P  &kp B          &kp J                    &kp L  &kp U                  &kp Y          &kp A                &kp A
+&kp TAB               &kp A  &kp R  &kp S         &kp T  &kp G          &kp M                    &kp N  &kp E                  &kp I          &kp O                    &kp O
 &kp LCTRL             &kp Z  &kp X  &kp C         &kp D  &kp V          &kp K                    &kp H  &kp COMMA              &kp PERIOD  &mt QUESTION EXCL  &kp RIGHT_CONTROL
                                     &kp LEFT_GUI  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;
