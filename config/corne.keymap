@@ -7,9 +7,8 @@
 #include <dt-bindings/zmk/mouse.h>
 
 // includes for unicode/danish - from urok
-
 #include <behaviors/unicode.dtsi>
-#include <zmk-unicode/keys-full.h>
+#include <zmk-unicode/keys/danish.h>
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
