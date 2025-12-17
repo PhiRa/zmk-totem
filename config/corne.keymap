@@ -15,15 +15,6 @@
 #include <behaviors/unicode.dtsi>
 #include <zmk-unicode/keys.h>
 
-&uc {
-    &uc_da_ae {
-        display-name = "æ";
-        label = "æ"
-    }
-}
-;
-
-
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
 
 &uc {
