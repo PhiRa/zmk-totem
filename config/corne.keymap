@@ -258,7 +258,6 @@
                 #binding-cells = <0>;
                 bindings = <&uc_da_ae>;
                 label = "æ";
-                display-name = "æ"
         };
 
         smiling: smiling {
