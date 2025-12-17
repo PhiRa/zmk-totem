@@ -257,7 +257,7 @@
         m_da_ae: da_ae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&uc 0xC3 0x86>;
+            bindings = <&uc UC_DA_AE>;
             label = "ae";
         };
 
