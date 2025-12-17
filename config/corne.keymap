@@ -14,8 +14,11 @@
 // includes for unicode/danish - from urok
 #include <behaviors/unicode.dtsi>
 #include <zmk-unicode/keys.h>
-// include labels for these to work in web editor.
-#include "unicode.dtsi"
+
+&uc_da_ae {
+    display-name = "æ";
+    label = "æ"
+};
 
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
