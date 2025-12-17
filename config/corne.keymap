@@ -254,10 +254,10 @@
     macros {
 
         m_da_ae: da_ae {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings = <&uc_da_ae>;
-                label = "æ";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&uc_da_ae>;
+            label = "ae";
         };
 
         smiling: smiling {
