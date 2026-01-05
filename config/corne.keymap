@@ -91,13 +91,13 @@
         power-toggle {
             bindings = <&ext_power EP_TOG>;
             key-positions = <0 12 24>;
-            layers = <0>;
+            layers = <3>;
         };
 
         power-on {
             bindings = <&ext_power EP_ON>;
             key-positions = <1 13 25>;
-            layers = <0>;
+            layers = <3>;
         };
 
         hash {
@@ -254,6 +254,7 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <24 25 26 27>;
+            layers = <3>;
         };
     };
 

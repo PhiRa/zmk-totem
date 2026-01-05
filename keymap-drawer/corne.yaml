@@ -291,11 +291,11 @@ combos:
   l: [default, clmk-dh]
 - p: [0, 12, 24]
   k: EP TOG
-  l: [default]
+  l: ['fun :)']
   draw_separate: true
 - p: [1, 13, 25]
   k: EP ON
-  l: [default]
+  l: ['fun :)']
   draw_separate: true
 - p: [22, 23]
   k: '#'
@@ -369,3 +369,4 @@ combos:
   k: Ctl+C
 - p: [24, 25, 26, 27]
   k: Boot
+  l: ['fun :)']
