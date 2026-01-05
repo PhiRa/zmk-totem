@@ -367,3 +367,5 @@ combos:
   k: Ctl+X
 - p: [2, 9]
   k: Ctl+C
+- p: [24, 25, 26, 27]
+  k: Boot
