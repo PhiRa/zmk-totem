@@ -256,6 +256,12 @@
             key-positions = <24 25 26 27>;
             layers = <3>;
         };
+
+        power-off {
+            bindings = <&ext_power EP_OFF>;
+            key-positions = <2 14 26>;
+            layers = <3>;
+        };
     };
 
     macros {
