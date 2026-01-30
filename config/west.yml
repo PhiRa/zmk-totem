@@ -9,13 +9,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-smart-toggle
       remote: caksoylar
       revision: main
     - name: zmk-unicode
       remote: urob
-      revision: v0.3 # set to same as ZMK version above
+      revision: main # set to same as ZMK version above
   self:
     path: config
