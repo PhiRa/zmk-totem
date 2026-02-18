@@ -262,6 +262,11 @@
             key-positions = <2 14 26>;
             layers = <3>;
         };
+
+        percent-combo {
+            bindings = <&kp RS(PERCENT)>;
+            key-positions = <35 34>;
+        };
     };
 
     macros {

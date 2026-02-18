@@ -373,3 +373,5 @@ combos:
 - p: [2, 14, 26]
   k: EP OFF
   l: ['fun :)']
+- p: [35, 34]
+  k: Sft+%

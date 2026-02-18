@@ -482,6 +482,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="22" width="28" height="26" class="combo"/>
 <text x="420" y="35" class="combo tap">Ctl+C</text>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 328)" class="layer-arrows+bt">
@@ -730,6 +734,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="22" width="28" height="26" class="combo"/>
 <text x="420" y="35" class="combo tap">Ctl+C</text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 657)" class="layer-num">
@@ -939,6 +947,10 @@ path.combo { stroke: #7f7f7f; }
 <path d="M420,35 l261,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="22" width="28" height="26" class="combo"/>
 <text x="420" y="35" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
 </g>
 </g>
 </g>
@@ -1176,6 +1188,10 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="140" dy="-0.6em">EP</tspan><tspan x="140" dy="1.2em">OFF</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1314)" class="layer-gaming">
@@ -1382,6 +1398,10 @@ path.combo { stroke: #7f7f7f; }
 <path d="M420,35 l261,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="22" width="28" height="26" class="combo"/>
 <text x="420" y="35" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
 </g>
 </g>
 </g>
@@ -1705,6 +1725,10 @@ path.combo { stroke: #7f7f7f; }
 <path d="M420,35 l261,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="22" width="28" height="26" class="combo"/>
 <text x="420" y="35" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">Sft+%</text>
 </g>
 </g>
 </g>
