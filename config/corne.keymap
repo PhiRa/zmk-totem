@@ -375,6 +375,8 @@
 &kp LCTRL             &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N                    &kp M  &kp COMMA              &kp PERIOD  &mt QUESTION EXCL  &kp RIGHT_CONTROL
                                     &kp LEFT_GUI  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
             >;
+
+            label = "base";
         };
 
         arrows {

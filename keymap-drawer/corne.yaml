@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default:
+  base:
   - {t: AltGr+ENTER, h: LSHIFT}
   - Q
   - W
@@ -261,34 +261,34 @@ layers:
 combos:
 - p: [7, 8]
   k: ⌫
-  l: [default, num, 'fun :)', clmk-dh]
+  l: [base, num, 'fun :)', clmk-dh]
 - p: [8, 9]
   k: ⌦
-  l: [default, arrows+bt, num, 'fun :)', clmk-dh]
+  l: [base, arrows+bt, num, 'fun :)', clmk-dh]
 - p: [3, 2]
   k: (
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [3, 4]
   k: )
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [14, 15]
   k: '['
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [15, 16]
   k: ']'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [26, 27]
   k: '{'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [28, 27]
   k: '}'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [4, 5]
   k: '"'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [29, 28]
   k: ''''
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [0, 12, 24]
   k: EP TOG
   l: ['fun :)']
@@ -299,47 +299,47 @@ combos:
   draw_separate: true
 - p: [22, 23]
   k: '#'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [6, 7]
   k: '-'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [30, 31]
   k: _
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [16, 17]
   k: LEFT SHIFT
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [18, 19]
   k: RIGHT SHIFT
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [19, 20]
   k: ;
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [21, 20]
   k: ':'
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [12, 13]
   k: Ctl+C
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [24, 25]
   k: Ctl+V
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [31, 32]
   k: '`'
 - p: [10, 9]
   k: '*'
-  l: [default]
+  l: [base]
 - p: [11, 10]
   k: '&'
 - p: [5, 17]
   k: Ctl+KP SLASH
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [17, 18]
   k: Caps Word
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [40, 37]
   k: LEFT SHIFT
-  l: [default]
+  l: [base]
 - p: [7, 8]
   k: AltGr+⌫
   l: [arrows+bt]
@@ -348,18 +348,18 @@ combos:
   l: [arrows+bt]
 - p: [0, 11]
   k: ESCAPE
-  l: [default, clmk-dh]
+  l: [base, clmk-dh]
 - p: [11, 23, 35]
   k: {t: gaming, h: toggle}
-  l: [default]
+  l: [base]
 - p: [11, 23, 35]
-  k: {t: default, h: toggle}
+  k: {t: base, h: toggle}
   l: [gaming]
 - p: [10, 22, 34]
   k: {t: clmk-dh, h: toggle}
-  l: [default]
+  l: [base]
 - p: [10, 22, 34]
-  k: {t: default, h: toggle}
+  k: {t: base, h: toggle}
   l: [clmk-dh]
 - p: [29, 30]
   k: Ctl+V
