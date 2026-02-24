@@ -23,10 +23,6 @@
 };
 
 / {
-    chosen {
-        /* This points the ZMK battery service directly to the hardware node */
-        zmk,battery = &vbatt;
-    };
     combos {
         compatible = "zmk,combos";
 
