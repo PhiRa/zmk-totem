@@ -37,10 +37,10 @@ layers:
   - .
   - {t: '!', h: '?'}
   - RIGHT CONTROL
-  - LEFT GUI
+  - RIGHT CONTROL
   - num
   - {t: ␣, h: arrows+bt}
-  - {t: ENTER, h: RIGHT CONTROL}
+  - {t: ENTER, h: LEFT GUI}
   - fun :)
   - {t: Ctl+↹, h: RIGHT ALT}
   arrows+bt:
