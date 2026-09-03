@@ -88,12 +88,6 @@
             layers = <0 5>;
         };
 
-        power-toggle {
-            bindings = <&ext_power EP_TOG>;
-            key-positions = <0 12 24>;
-            layers = <3>;
-        };
-
         power-on {
             bindings = <&ext_power EP_ON>;
             key-positions = <1 13 25>;
@@ -254,12 +248,6 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <24 25 26 27>;
-            layers = <3>;
-        };
-
-        power-off {
-            bindings = <&ext_power EP_OFF>;
-            key-positions = <2 14 26>;
             layers = <3>;
         };
 
