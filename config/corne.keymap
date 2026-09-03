@@ -311,6 +311,13 @@
             bindings = <&kp RA(UP) &kp RA(UP)>;
             label = "SELECT_WORD_2";
         };
+
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp J &kp M &kp A &kp AT &kp S &kp O &kp F &kp T &kp P &kp A &kp Y &kp DOT &kp I &kp O>;
+            label = "EMAIL";
+        };
     };
 
     behaviors {
