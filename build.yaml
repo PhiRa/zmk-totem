@@ -13,11 +13,11 @@
 #
 ---
 include:
-  - board: nice_nano@1//zmk
+  - board: nice_nano//zmk
     shield: corne_left
-  - board: nice_nano@1//zmk
+  - board: nice_nano//zmk
     shield: corne_right
-  - board: nice_nano@1//zmk
+  - board: nice_nano//zmk
     shield: settings_reset
   - board: xiao_ble//zmk
     shield: totem_left
