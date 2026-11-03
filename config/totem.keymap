@@ -167,6 +167,11 @@
             bindings = <&kp LC(KP_SLASH)>;
             key-positions = <4 14>;
         };
+
+        Space {
+            bindings = <&kp SPACE>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
@@ -248,10 +253,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W  &kp E             &kp R  &kp T          &kp Y                    &kp U  &kp I                  &kp O    &kp P
-         &kp A  &kp S  &kp D             &kp F  &kp G          &kp H                    &kp J  &kp K                  &kp L    &kp DA_AE
-&kp TAB  &kp Z  &kp X  &kp C             &kp V  &kp B          &kp N                    &kp M  &kp COMMA              &kp DOT  &mt DA_QUESTION DA_EXCL  &kp DA_O_SLASH
-                       &kp LEFT_COMMAND  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht RIGHT_ALT RC(TAB)
+         &kp Q  &kp W  &kp E             &kp R  &kp T          &kp Y                    &kp U  &kp I                    &kp O    &kp P
+         &kp A  &kp S  &kp D             &kp F  &kp G          &kp H                    &kp J  &kp K                    &kp L    &kp DA_AE
+&kp TAB  &kp Z  &kp X  &kp C             &kp V  &kp B          &kp N                    &kp M  &kp COMMA                &kp DOT  &mt DA_QUESTION DA_EXCL  &kp DA_O_SLASH
+                       &kp LEFT_COMMAND  &mo 2  &lt 1 SPACE    &mt RIGHT_CONTROL ENTER  &mo 3  &ht (RIGHT_ALT) RC(TAB)
             >;
         };
 
